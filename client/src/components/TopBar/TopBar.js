@@ -21,13 +21,13 @@ class TopBar extends Component {
                             <NavLink to='/ayva'><span>Ayva</span></NavLink>
                         </div>
                         <div className='home'>
-                            <NavLink to='/help'><span>Docs</span></NavLink>
+                            <NavLink to='/documentation'><span>Docs</span></NavLink>
                         </div>
                         <div className='home'>
-                            <NavLink to='/about'><span>Github</span></NavLink>
+                            <NavLink to='/github'><span>Github</span></NavLink>
                         </div>
                         <div className='about'>
-                            <NavLink to='/about'><span>About</span></NavLink>
+                            <NavLink to='/team'><span>Team</span></NavLink>
                         </div>
                     </div>
                 </div>

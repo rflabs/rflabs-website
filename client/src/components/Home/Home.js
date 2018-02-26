@@ -8,8 +8,13 @@ class Home extends Component {
             <div className='main'>
                 <div className='mainContainer'>
                     <div className='mainOne'>
-                        <div className='primaryMessage'>
-                            <span>Hello Ayva.</span>
+                        <div className='primaryMessageBox'>
+                            <div className='firstMessage'>
+                            <h1>Hello Ayva.</h1>
+                            </div>
+                            <div className='secondMessage'>
+                            <span>A new way to develop cross-platform voice assistant apps</span>
+                            </div>
                         </div>
                     </div>
                 </div>

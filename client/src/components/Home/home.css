@@ -1,11 +1,24 @@
-.primaryMessage {
+.primaryMessageBox {
     display: flex;
     height: 100%;
+    width:100%;
     align-items: center;
-    align-self:center;
-    
+    flex-direction: column;
+    justify-content: center;
 }
 
-.primaryMessage span {
+.primaryMessageBox h1 {
     font-size: 500%;
+    font-family: 'Dosis', cursive;
 }   
+
+.firstMessage {
+    display:flex;
+    padding-bottom: 2em;
+}
+
+.secondMessage {
+    display:flex;
+    flex-direction: row;
+}
+

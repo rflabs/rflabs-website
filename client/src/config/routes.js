@@ -2,7 +2,8 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {MainContainer, 
-        HomeContainer} from '../containers';
+        HomeContainer,
+        AyvaContainer} from '../containers';
 
 
 const routes = (
@@ -10,6 +11,7 @@ const routes = (
         <Switch> 
             <MainContainer> 
                 <Route exact path='/' component={HomeContainer} />
+                <Route path='/ayva' component={AyvaContainer} />
             </MainContainer>       
         </Switch>
     </Router>
