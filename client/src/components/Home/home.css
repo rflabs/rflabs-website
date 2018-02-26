@@ -1,0 +1,11 @@
+.primaryMessage {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    align-self:center;
+    
+}
+
+.primaryMessage span {
+    font-size: 500%;
+}   

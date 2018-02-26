@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom'
 
 import './topBar.css'
 
+import logo from '../../img/rflabs-logo.png'
+
 class TopBar extends Component {
     render() {
         return (
@@ -11,27 +13,18 @@ class TopBar extends Component {
                 <div className="topBarContainer">
                     <div className='leftContainer'>
                         <div className='logo'>
-                   
-                            <span>Refresh Trivia</span>
+                            <img className='rflabs-logo' src={logo} alt='rflabs-logo'/>
                         </div>
                     </div>
                     <div className='rightContainer'>
-                        {this.props.loadingStatus !== 'INIT'
-                            ? <div className='goToMain'>
-                                <div className='spokenBoxTop'>
-                                   
-                                </div>
-                                <div className='spokenTextTop'>
-                                    <span>Go to main menu</span>
-                                </div>
-                            </div>
-                            : null
-                        }
                         <div className='home'>
-                            <NavLink to='/'><span>Trivia</span></NavLink>
+                            <NavLink to='/ayva'><span>Ayva</span></NavLink>
                         </div>
                         <div className='home'>
-                            <NavLink to='/help'><span>Help</span></NavLink>
+                            <NavLink to='/help'><span>Docs</span></NavLink>
+                        </div>
+                        <div className='home'>
+                            <NavLink to='/about'><span>Github</span></NavLink>
                         </div>
                         <div className='about'>
                             <NavLink to='/about'><span>About</span></NavLink>

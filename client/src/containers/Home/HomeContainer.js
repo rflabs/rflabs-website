@@ -1,9 +1,15 @@
 import React, {Component} from 'react'
 
+import {Home} from '../../components'
+import {TopBarContainer} from '../../containers';
+
 class HomeContainer extends Component {
     render() {
         return (
-            <div>hello</div>
+            <div>
+                <TopBarContainer />
+                <Home />
+            </div>
         )
     }
 }
