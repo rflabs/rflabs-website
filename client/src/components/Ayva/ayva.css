@@ -1,0 +1,50 @@
+.ayvaDescription {
+    display: flex;
+    height: 100%;
+    width:100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: 90%;
+}
+
+.ayvaOverview {
+    display:flex;
+    width:50%;
+    padding-bottom: 20px;
+}
+
+.ayvaComponents {
+    display:flex;
+    width:50%;
+}
+
+.ayvaComponents h1 {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+
+.ayvaComponentList {
+    display:flex;
+    width:50%;
+    padding-bottom: 20px;
+}
+
+.ayvaBenefit {
+    display:flex;
+    width:50%;
+    padding-bottom: 50px;
+}
+
+.ayvaArchitecture {
+    display:flex;
+    width:70%;
+    justify-content: center;
+}
+
+.ayvaArchitectureImg {
+    height: 100%;
+    width: 70%;
+}

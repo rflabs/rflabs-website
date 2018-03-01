@@ -21,7 +21,7 @@ class TopBar extends Component {
                             <NavLink to='/ayva'><span>Ayva</span></NavLink>
                         </div>
                         <div className='links'>
-                            <a href="https://rflabs.github.io/ayva-documentation/">Documentation</a>
+                            <a href="https://rflabs.github.io/ayva-documentation/">Docs</a>
                         </div>
                         <div className='links'>
                             <a href="https://github.com/rflabs/ayva">Github</a>
