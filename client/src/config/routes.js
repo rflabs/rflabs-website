@@ -3,7 +3,8 @@ import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {MainContainer, 
         HomeContainer,
-        AyvaContainer} from '../containers';
+        AyvaContainer,
+        TeamContainer} from '../containers';
 
 
 const routes = (
@@ -12,6 +13,7 @@ const routes = (
             <MainContainer> 
                 <Route exact path='/' component={HomeContainer} />
                 <Route path='/ayva' component={AyvaContainer} />
+                <Route path='/team' component={TeamContainer} />
             </MainContainer>       
         </Switch>
     </Router>
