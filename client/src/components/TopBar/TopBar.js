@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 import './topBar.css'
 
-import logo from '../../img/rflabs-logo.png'
+import logo from '../../img/rflabs-logo-website.png'
 
 class TopBar extends Component {
     render() {
@@ -13,18 +13,18 @@ class TopBar extends Component {
                 <div className="topBarContainer">
                     <div className='leftContainer'>
                         <div className='logo'>
-                            <img className='rflabs-logo' src={logo} alt='rflabs-logo'/>
+                            <NavLink to='/'><img className='rflabs-logo-website' src={logo} alt='rflabs-logo-website'/></NavLink>
                         </div>
                     </div>
                     <div className='rightContainer'>
-                        <div className='home'>
+                        <div className='links'>
                             <NavLink to='/ayva'><span>Ayva</span></NavLink>
                         </div>
-                        <div className='home'>
-                            <NavLink to='/documentation'><span>Docs</span></NavLink>
+                        <div className='links'>
+                            <a href="https://rflabs.github.io/ayva-documentation/">Documentation</a>
                         </div>
-                        <div className='home'>
-                            <NavLink to='/github'><span>Github</span></NavLink>
+                        <div className='links'>
+                            <a href="https://github.com/rflabs/ayva">Github</a>
                         </div>
                         <div className='about'>
                             <NavLink to='/team'><span>Team</span></NavLink>

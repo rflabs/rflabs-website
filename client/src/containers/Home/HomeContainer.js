@@ -6,7 +6,7 @@ import {TopBarContainer} from '../../containers';
 class HomeContainer extends Component {
     render() {
         return (
-            <div>
+            <div className='main'>
                 <TopBarContainer />
                 <Home />
             </div>
