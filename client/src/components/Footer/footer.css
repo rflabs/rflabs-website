@@ -51,5 +51,10 @@
     height:20px;
 }
 
+.licenseBox a {
+    color: #9B9B9B;
+    text-decoration: underline;
+}
+
 
 

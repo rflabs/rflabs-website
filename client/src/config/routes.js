@@ -4,7 +4,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {MainContainer, 
         HomeContainer,
         AyvaContainer,
-        TeamContainer} from '../containers';
+        TeamContainer,
+        MITContainer} from '../containers';
 
 
 const routes = (
@@ -14,6 +15,7 @@ const routes = (
                 <Route exact path='/' component={HomeContainer} />
                 <Route path='/ayva' component={AyvaContainer} />
                 <Route path='/team' component={TeamContainer} />
+                <Route path='/MIT' component={MITContainer} />
             </MainContainer>       
         </Switch>
     </Router>

@@ -1,5 +1,6 @@
 
 import React, {Component} from 'react'
+import { NavLink } from 'react-router-dom'
 
 import './footer.css'
 
@@ -22,7 +23,7 @@ class Footer extends Component {
                 </div>
                 <div className='footerRight'>
                     <div className='licenseBox'>
-                        <span>Ayva Framework is licensed under MIT. Docs under Apache 2</span>
+                        <span>Ayva Framework is licensed under <NavLink to='/mit'>MIT</NavLink>.</span>
                     </div>
                 </div>
             </div>
