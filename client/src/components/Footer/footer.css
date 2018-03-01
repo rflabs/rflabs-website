@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    color: #9B9B9B;
+    font-size: 70%;
+    font-family: 'Dosis', cursive;
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width:90%;
+}
+
+.footerLeft {
+    display:flex;
+    width:50%;
+    align-items: center;
+    align-self: center;
+}
+
+.copyrightBox {
+    display: flex;
+    align-items: center;
+    height:20px;
+}
+
+.githubBox {
+    display: flex;
+    margin-left: 10px;
+    align-items: flex-start;
+    height:20px;
+}
+
+.footerRight {
+    display:flex;
+    width:50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.licenseBox {
+    display: flex;
+    align-items: center;
+    height:20px;
+}
+
+
+

@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 import {Ayva} from '../../components'
 
-import {TopBarContainer} from '../../containers'
+import {TopBarContainer, FooterContainer} from '../../containers'
 
 class AyvaContainer extends Component {
     render() {
@@ -10,6 +10,7 @@ class AyvaContainer extends Component {
             <div className='main'>
                 <TopBarContainer />
                 <Ayva />
+                <FooterContainer />
             </div>
         )
     }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 import {Home} from '../../components'
-import {TopBarContainer} from '../../containers';
+import {TopBarContainer, FooterContainer} from '../../containers';
 
 class HomeContainer extends Component {
     render() {
@@ -9,6 +9,7 @@ class HomeContainer extends Component {
             <div className='main'>
                 <TopBarContainer />
                 <Home />
+                <FooterContainer />
             </div>
         )
     }
