@@ -6,41 +6,41 @@
     flex-direction: column;
     justify-content: center;
     font-family: 'Raleway';
-    font-size: 90%;
+    font-size: .8vw;
 }
 
 .ayvaOverview {
     display:flex;
-    width:50%;
-    padding-bottom: 20px;
+    width:50vw;
+    padding-bottom: 2vh;
 }
 
 .ayvaComponents {
     display:flex;
-    width:50%;
+    width:50vw;
 }
 
 .ayvaComponents h1 {
     font-weight: bold;
-    font-size: 120%;
+    font-size: 1vw;
 }
 
 
 .ayvaComponentList {
     display:flex;
-    width:50%;
-    padding-bottom: 20px;
+    width:50vw;
+    padding-bottom: 2vh;
 }
 
 .ayvaBenefit {
     display:flex;
-    width:50%;
-    padding-bottom: 50px;
+    width:50vw;
+    padding-bottom: 4vh;
 }
 
 .ayvaArchitecture {
     display:flex;
-    width:70%;
+    width:70vw;
     justify-content: center;
 }
 

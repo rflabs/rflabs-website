@@ -12,7 +12,7 @@ class Footer extends Component {
             <div className='footerContainer'>
                 <div className='footerLeft'>
                     <div className='copyrightBox'>
-                    <span>&copy; 2018 Refresh Labs</span>
+                        <span>&copy; 2018 Refresh Labs</span>
                     </div>
                     
                     <div className='githubBox'>
