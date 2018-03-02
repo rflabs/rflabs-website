@@ -1,3 +1,5 @@
+
+
 .ayvaDescription {
     display: flex;
     height: 100%;
@@ -21,33 +23,46 @@
 }
 
 .ayvaComponents h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1vw;
+    color: #03236E;
 }
 
 
 .ayvaComponentList {
     display:flex;
     width:50vw;
-    padding-bottom: 2vh;
 }
 
-.ayvaBenefit {
-    display:flex;
-    width:50vw;
-    padding-bottom: 4vh;
+.ayvaComponentList ul{
+    padding-bottom: 0;
+    list-style-type: none;
+    padding-left:0;
+}
+
+.ayvaComponentList li{
+    padding-bottom: 0;
 }
 
 .ayvaArchitecture {
     display:flex;
     width:70vw;
     justify-content: center;
+    padding-bottom: 4vh;
 }
 
 .ayvaArchitectureImg {
     height: 100%;
     width: 70%;
 }
+
+.ayva {
+    font-weight: bold;
+    color: #A40E4C;
+    font-size: 1.2vw;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .ayvaDescription {

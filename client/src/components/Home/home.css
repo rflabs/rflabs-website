@@ -9,7 +9,7 @@
 
 .primaryMessageBox h1 {
     font-size: 7vw;
-    font-family: 'Dosis', cursive;
+    font-family: 'Dosis', sans-serif;
     color: #03236E;
 }   
 
@@ -40,7 +40,7 @@
     
     .primaryMessageBox h1 {
         font-size: 16vw;
-        font-family: 'Dosis', cursive;
+        font-family: 'Dosis', sans-serif;
         color: #03236E;
     }
     

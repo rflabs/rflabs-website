@@ -8,7 +8,7 @@
     justify-content: center;
     color: #9B9B9B;
     font-size: .8vw;
-    font-family: 'Dosis', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 .footerContainer {
@@ -69,7 +69,7 @@
         justify-content: center;
         color: #9B9B9B;
         font-size: 2vw;
-        font-family: 'Dosis', cursive;
+        font-family: 'Dosis', sans-serif;
     }
     
     .footerContainer {

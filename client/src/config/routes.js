@@ -5,7 +5,8 @@ import {MainContainer,
         HomeContainer,
         AyvaContainer,
         TeamContainer,
-        MITContainer} from '../containers';
+        MITContainer,
+        TutorialContainer} from '../containers';
 
 
 const routes = (
@@ -16,6 +17,7 @@ const routes = (
                 <Route path='/ayva' component={AyvaContainer} />
                 <Route path='/team' component={TeamContainer} />
                 <Route path='/MIT' component={MITContainer} />
+                <Route path='/tutorial' component={TutorialContainer} />
             </MainContainer>       
         </Switch>
     </Router>

@@ -6,5 +6,6 @@ export {default as FooterContainer} from './Footer/FooterContainer';
 export {default as HomeContainer} from './Home/HomeContainer';
 export {default as AyvaContainer} from './Ayva/AyvaContainer';
 export {default as TeamContainer} from './Team/TeamContainer';
+export {default as TutorialContainer} from './Tutorial/TutorialContainer';
 
 export {default as MITContainer} from './MIT/MITContainer';
