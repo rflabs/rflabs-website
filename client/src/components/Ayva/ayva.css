@@ -57,7 +57,7 @@
         flex-direction: column;
         justify-content: center;
         font-family: 'Raleway';
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
     .ayvaOverview {
@@ -73,7 +73,7 @@
     
     .ayvaComponents h1 {
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
     
