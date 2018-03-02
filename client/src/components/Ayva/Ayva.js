@@ -31,7 +31,6 @@ class Ayva extends Component {
                         </div>
                     </div>
                 </div>
-                Ayva
             </div>
         )
     }

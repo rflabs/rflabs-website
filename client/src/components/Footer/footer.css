@@ -58,4 +58,65 @@
 }
 
 
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        color: #9B9B9B;
+        font-size: 2vw;
+        font-family: 'Dosis', cursive;
+    }
+    
+    .footerContainer {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        width:90%;
+    }
+    
+    .footerLeft {
+        display:flex;
+        width:50%;
+    }
+    
+    .copyrightBox {
+        display: flex;
+        align-items: center;
+    }
+    
+    .githubBox {
+        display: flex;
+        margin-left: 10px;
+        align-self:center;
+    }
+    
+    .github {
+        display: flex;
+        height: 80%;
+    }
+    
+    
+    .footerRight {
+        display:flex;
+        width:50%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .licenseBox {
+        display: flex;
+        align-items: center;
+        height:20px;
+    }
+    
+    .licenseBox a {
+        color: #9B9B9B;
+        text-decoration: underline;
+    }
+}
 

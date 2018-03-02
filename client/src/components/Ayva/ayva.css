@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     font-family: 'Raleway';
-    font-size: .8vw;
+    font-size: 1vw;
 }
 
 .ayvaOverview {
@@ -47,4 +47,58 @@
 .ayvaArchitectureImg {
     height: 100%;
     width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .ayvaDescription {
+        display: flex;
+        height: 100%;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Raleway';
+        font-size: 2vw;
+    }
+    
+    .ayvaOverview {
+        display:flex;
+        width:70vw;
+        padding-bottom: 2vh;
+    }
+    
+    .ayvaComponents {
+        display:flex;
+        width:70vw;
+    }
+    
+    .ayvaComponents h1 {
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    
+    
+    .ayvaComponentList {
+        display:flex;
+        width:70vw;
+        padding-bottom: 1vh;
+    }
+    
+    .ayvaBenefit {
+        display:flex;
+        width:70vw;
+        padding-bottom: 4vh;
+    }
+    
+    .ayvaArchitecture {
+        display:flex;
+        width:70vw;
+        justify-content: center;
+    }
+    
+    .ayvaArchitectureImg {
+        height: 100%;
+        width: 100%;
+    }
+
+
 }

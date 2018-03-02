@@ -27,3 +27,34 @@
     font-size: 1.5vw;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .primaryMessageBox {
+        display: flex;
+        height: 100%;
+        width:100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .primaryMessageBox h1 {
+        font-size: 15vw;
+        font-family: 'Dosis', cursive;
+        color: #03236E;
+    }
+    
+    .firstMessage {
+        display:flex;
+        padding-bottom: 2vw;
+    }
+    
+    .secondMessage {
+        display:flex;
+        flex-direction: row;
+    }
+    
+    .secondMessage span {
+        font-size: 3vw;
+    }
+}
