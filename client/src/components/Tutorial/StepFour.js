@@ -9,7 +9,7 @@ class StepFour extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span><span className='stepTitle'>Step 4. </span>Bespoken local proxy</span>
+                    <span><span className='stepTitle'>Step 4. </span>Bespoken local proxy & webhoook setup</span>
                 </div>
                 <div className='stepDescriptionBox'>
                 <br />
@@ -30,7 +30,7 @@ class StepFour extends Component {
                     <div className='tutorialImgBox'>
                         <h3>b. Configure your agent's webhook to your Bespoken public url followed by '/gAssistant'.</h3>
                         <span>Navigate to the 'Fullfillment' tab in Dialogflow. Enable the 'Webhook' service and enter your 
-                        Bespoken public URL followed by '/gAssistant' (this is to tell Ayva what data structure to use for responses).</span>
+                        Bespoken public URL followed by '/gAssistant' (this defines what data structure Ayva what will to use for responses).</span>
                         <br />
                         <img className='threeImg' src={dfFulfillment} alt='dfFulfillment'/>
                     </div>
