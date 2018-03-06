@@ -2,6 +2,7 @@
 import React, {Component} from 'react'
 
 import bstProxy from './img/bstProxy.png'
+import dfFulfillment from './img/dfFulfillment.png'
 
 class StepFour extends Component {
     render() {
@@ -23,11 +24,18 @@ class StepFour extends Component {
                         for accessing the local service you will be running later in the tutorial for the Hello Ayva voice app 
                         (runs on port 8080 by default).</span>
                         <br />
-                        <img className='cmdLineImg' src={bstProxy} alt='threeC'/>
+                        <img className='cmdLineImg' src={bstProxy} alt='bstProxy'/>
+                    </div>
+                    <br />
+                    <div className='tutorialImgBox'>
+                        <h3>b. Configure your agent's webhook to your Bespoken public url followed by '/gAssistant'.</h3>
+                        <span>Navigate to the 'Fullfillment' tab in Dialogflow. Enable the 'Webhook' service and enter your 
+                        Bespoken public URL followed by '/gAssistant' (this is to tell Ayva what data structure to use for responses).</span>
+                        <br />
+                        <img className='threeImg' src={dfFulfillment} alt='dfFulfillment'/>
                     </div>
                     <br />
                     <span className='footNote'><a href='https://ngrok.com/'>(Ngrok</a> or similar can be used in place of <a href='https://bespoken.io'>Bespoken)</a>.</span>
-             
                 </div>
             </div>
         )
