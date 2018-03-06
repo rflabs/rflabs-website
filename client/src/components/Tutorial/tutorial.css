@@ -38,6 +38,19 @@
     padding-bottom: 5vh;
 }
 
+.terminalDescription {
+    display: flex;
+    align-items: center;
+}
+
+.terminal {
+    flex: 1 1 0;
+    margin-right: 0.5vw;
+    align-self: center;
+    max-width: 25px;
+    height: auto;
+}
+
 .stepBox {
     display: flex;
     flex-direction: column;
@@ -60,6 +73,39 @@
     flex-direction: column;
     margin-bottom: 10vh;
     margin-left: 2vw;
+}
+
+.stepLinks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.npmBox {
+    display:flex;
+    align-items: center;
+
+}
+
+.githubBox {
+    display:flex;
+    align-items: center;
+}
+
+.npm {
+    flex: 1 1 0;
+    margin-right: .5vw;
+    align-self: center;
+    max-width: 50px;
+    height: auto;
+}
+
+.githubBlack {
+    flex: 1 1 0;
+    margin-right: 1vw;
+    align-self: center;
+    max-width: 25px;
+    height: auto;
 }
 
 .threeImgBox {
