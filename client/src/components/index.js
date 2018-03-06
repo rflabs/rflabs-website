@@ -12,5 +12,6 @@ export {default as StepThree} from './Tutorial/StepThree';
 export {default as StepFour} from './Tutorial/StepFour';
 export {default as StepFive} from './Tutorial/StepFive';
 export {default as StepSix} from './Tutorial/StepSix';
+export {default as StepSeven} from './Tutorial/StepSeven';
 
 export {default as MIT} from './MIT/MIT';

@@ -8,7 +8,8 @@ import {StepOne,
         StepThree,
         StepFour,
         StepFive,
-        StepSix} from '../../components'
+        StepSix,
+        StepSeven} from '../../components'
 
 import terminal from './img/terminal.png'
 import npm from './img/npm.png'
@@ -29,6 +30,7 @@ class Tutorial extends Component {
                     <StepFour terminal={terminal} />
                     <StepFive terminal={terminal} />
                     <StepSix terminal={terminal}/>
+                    <StepSeven />
                 </div>
             </div>
         )

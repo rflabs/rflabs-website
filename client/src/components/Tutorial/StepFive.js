@@ -29,7 +29,7 @@ class StepFive extends Component {
                     <div className='tutorialImgBox'>
                         <h3>b. Select 'Google (Dialogflow)' and enter the agent developer access token (obtained in step 3).</h3>
                         <span>This helps Ayva understand and authenticate to the desired Dialogflow agent. The developer access 
-                        token you define here can be found in 'ayva.json'  in the newly created 'ayva-hello' project folder.</span>
+                        token you define here can be found in 'ayva.json', always located in the root of your Ayva project folder.</span>
                         <br />
                         <img className='cmdLineImg' src={helloTwo} alt='threeA'/>
                     </div>

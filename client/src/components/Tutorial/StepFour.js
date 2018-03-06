@@ -33,6 +33,7 @@ class StepFour extends Component {
                         Bespoken public URL followed by '/gAssistant' (this defines what data structure Ayva what will to use for responses).</span>
                         <br />
                         <img className='threeImg' src={dfFulfillment} alt='dfFulfillment'/>
+                        <span>DON'T FORGET TO CLICK THE SAVE BUTTON AT THE BOTTOM OF THE PAGE</span>
                     </div>
                     <br />
                     <span className='footNote'><a href='https://ngrok.com/'>(Ngrok</a> or similar can be used in place of <a href='https://bespoken.io'>Bespoken)</a>.</span>

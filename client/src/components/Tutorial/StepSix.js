@@ -15,8 +15,12 @@ class StepSix extends Component {
                         <span className='code'>ayva deploy</span>
                     </span>
                     <br />
-                    <span>Navigate into the 'hello-ayva' directory created in step 5, and run this command. This will 
-                    push the pre-defined interaction model in this voice application to the Dialogflow agent you created in Step 3. </span>
+                    <div className='tutorialImgBox'>
+                        <h3>a. Import interaction model to Dialogflow agent</h3>
+                        <span>Navigate into the 'avya-hello' directory created in step 5, and run this command. This will 
+                        push the pre-defined interaction model in this voice application to the Dialogflow agent you created in Step 3. </span>
+                    </div>
+                    
                 </div>
             </div>
         )
