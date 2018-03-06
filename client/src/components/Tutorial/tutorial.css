@@ -35,7 +35,8 @@
 .helloAyvaDescription {
     display: flex;
     width:70vw;
-    padding-bottom: 5vh;
+    max-width: 700px;
+    padding-bottom: 10vh;
 }
 
 .terminalDescription {
@@ -55,6 +56,7 @@
     display: flex;
     flex-direction: column;
     width:70vw;
+    max-width: 700px;
 }
 
 .stepTitleBox {
@@ -108,17 +110,33 @@
     height: auto;
 }
 
-.threeImgBox {
+.tutorialImgBox {
     display: flex;
     flex-direction: column;
 }
 
-.threeImgBox h3 {
+.tutorialImgBox h3 {
     font-size: 100%;
     font-weight: 700;
 }
 
 .threeImg {
     max-height: 100%;
-    max-width: 600px;
+    max-width: 700px;
+}
+
+.cmdLineImg {
+    max-height: 100%;
+    max-width: 700px;
+}
+
+.footNote {
+    color: #9B9B9B;
+    font-size: .9vw;
+}
+
+.footNote a {
+    color: #9B9B9B;
+    font-size: .9vw;
+    text-decoration: underline;
 }
