@@ -8,7 +8,7 @@ class StepTwo extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span><span className='stepTitle'>Step 2. </span>Install Bespoken Tools for local proxy</span>
+                    <span className='stepHeader'><span className='stepTitle'>Step 2. </span>Install Bespoken Tools for local proxy</span>
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />

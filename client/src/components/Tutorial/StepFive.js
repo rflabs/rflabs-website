@@ -9,7 +9,7 @@ class StepFive extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span><span className='stepTitle'>Step 5. </span>Ayva hello</span>
+                    <span className='stepHeader'><span className='stepTitle'>Step 5. </span>Ayva hello</span>
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />

@@ -21,8 +21,9 @@ class Tutorial extends Component {
             <div className='ayvaBox'>
                 <div className='helloAyva'>
                     <div className='helloAyvaDescription'>
-                        <span><span className='helloAyvaTitle'>Hello Ayva</span> is a tutorial of how to use Ayva 
-                        to create and deploy a voice application on your local Google assistant device.</span>
+                        <h1>Hello Ayva.</h1>
+                        <span>A tutorial of how to use Ayva to create and deploy a voice application on your local voice 
+                        assistant device.</span>
                     </div>
                     <StepOne terminal={terminal} npm={npm} githubBlack={githubBlack} />
                     <StepTwo terminal={terminal} npm={npm} githubBlack={githubBlack} />

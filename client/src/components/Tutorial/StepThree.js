@@ -12,7 +12,7 @@ class StepThree extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span><span className='stepTitle'>Step 3. </span>Create a <a href='https://console.dialogflow.com/api-client/authorize_url_google/nopopup'>Dialogflow developer account</a> & new agent</span>
+                    <span className='stepHeader'><span className='stepTitle'>Step 3. </span>Create a <a href='https://console.dialogflow.com/api-client/authorize_url_google/nopopup'>Dialogflow developer account</a> & new agent</span>
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />

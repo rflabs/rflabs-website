@@ -9,7 +9,7 @@ class StepFour extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span><span className='stepTitle'>Step 4. </span>Bespoken local proxy & webhoook setup</span>
+                    <span className='stepHeader'><span className='stepTitle'>Step 4. </span>Bespoken local proxy & webhook setup</span>
                 </div>
                 <div className='stepDescriptionBox'>
                 <br />

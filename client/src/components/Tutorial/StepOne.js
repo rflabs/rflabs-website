@@ -6,7 +6,7 @@ class StepOne extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span><span className='stepTitle'>Step 1. </span>Install Ayva CLI</span>
+                    <span className='stepHeader'><span className='stepTitle'>Step 1. </span>Install Ayva CLI</span>
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />
