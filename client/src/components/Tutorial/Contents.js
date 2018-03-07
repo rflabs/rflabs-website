@@ -8,7 +8,7 @@ class Contents extends Component {
         return (
             <div className='tableOfContents'>
                 <h3>Contents</h3>
-                <ul className='contentList'>
+                <ol className='contentList'>
                     <a href='#stepOne'><li>Install Avyva CLI</li></a>
                     <a href='#stepTwo'><li>Install Bespoken Tools for local proxy</li></a>
                     <a href='#stepThree'><li>Create Dialogflow developer account & agent</li></a>
@@ -16,7 +16,7 @@ class Contents extends Component {
                     <a href='#stepFive'><li>Ayva hello</li></a>
                     <a href='#stepSix'><li>Ayva deploy</li></a>
                     <a href='#stepSeven'><li>Test on Google Assistant</li></a>
-                </ul>
+                </ol>
             </div>
         )
     }
