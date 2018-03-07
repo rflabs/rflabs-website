@@ -37,6 +37,7 @@ class StepFour extends Component {
                     </div>
                     <br />
                     <span className='footNote'><a href='https://ngrok.com/'>(Ngrok</a> or similar can be used in place of <a href='https://bespoken.io'>Bespoken)</a>.</span>
+                    <a name='stepFive'></a>
                 </div>
             </div>
         )

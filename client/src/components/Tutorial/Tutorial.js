@@ -9,7 +9,8 @@ import {StepOne,
         StepFour,
         StepFive,
         StepSix,
-        StepSeven} from '../../components'
+        StepSeven,
+        Contents} from '../../components'
 
 import terminal from './img/terminal.png'
 import npm from './img/npm.png'
@@ -19,11 +20,15 @@ class Tutorial extends Component {
     render() {
         return (
             <div className='ayvaBox'>
+                <div className='contentsBox'>
+                    <Contents />
+                </div>
                 <div className='helloAyva'>
                     <div className='helloAyvaDescription'>
                         <h1>Hello Ayva.</h1>
                         <span>A tutorial of how to use Ayva to create and deploy a voice application on your local voice 
                         assistant device.</span>
+                        <a name='stepOne'></a>
                     </div>
                     <StepOne terminal={terminal} npm={npm} githubBlack={githubBlack} />
                     <StepTwo terminal={terminal} npm={npm} githubBlack={githubBlack} />

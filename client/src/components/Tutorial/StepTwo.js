@@ -29,6 +29,7 @@ class StepTwo extends Component {
                             <a href='https://github.com/bespoken/bst'><img className='githubBlack' src={this.props.githubBlack} alt='githubBlack'/></a>
                         </div>
                     </div>
+                    <a name='stepThree'></a>
                 </div>
             </div>
         )

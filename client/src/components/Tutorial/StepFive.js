@@ -33,6 +33,7 @@ class StepFive extends Component {
                         <br />
                         <img className='cmdLineImg' src={helloTwo} alt='threeA'/>
                     </div>
+                    <a name='stepSix'></a>
                 </div>
             </div>
         )

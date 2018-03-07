@@ -9,15 +9,20 @@
 .ayvaBox {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
     margin: 10vh 0 0 0;
-    width:100%;
+    width:70vw;
+}
+
+.contentsBox {
+    display: flex;
+    width: 15vw;
+    justify-content: center;
 }
 
 .helloAyva {
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     font-size: 1vw;
@@ -31,6 +36,7 @@
     max-width: 700px;
     padding-bottom: 10vh;
     flex-direction: column;
+    
 }
 
 .helloAyvaDescription h1 {
@@ -45,8 +51,6 @@
     font-size: 1.3vw;
     color: #2D333F;
 }
-
-
 
 .terminalDescription {
     display: flex;

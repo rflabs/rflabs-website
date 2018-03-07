@@ -1,0 +1,36 @@
+
+.tableOfContents {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 15vh;
+    width:12vw;
+}
+
+.tableOfContents h3 {
+    font-size: 1.2vw;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    color: #00CDAF;
+}
+
+.contentList {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    list-style: "-";
+    
+}
+
+.contentList a {
+    font-size: .8vw;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: .5vh;
+    color: grey;
+}
+
+.contentList li{
+    font-size: .8vw;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: .5vh;
+}

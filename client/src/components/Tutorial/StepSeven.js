@@ -4,6 +4,7 @@ import React, {Component} from 'react'
 import checkIntents from './img/checkIntents.png'
 import integrationSettings from './img/integrationSettings.png'
 import gAssistantSetup from './img/gAssistantSetup.png'
+import googleSimulator from './img/googleSimulator.png'
 
 class StepSeven extends Component {
     render() {
@@ -45,6 +46,7 @@ class StepSeven extends Component {
                         <span>You should now be in the 'Actions on Google' simulator page. Go ahead and input 'Talk to my test app' into 
                         the chat simulator to begin Ayva Hello!</span>
                         <br />
+                        <img className='threeImg' src={googleSimulator} alt='googleSimulator'/>
                     </div>
                 </div>
             </div>

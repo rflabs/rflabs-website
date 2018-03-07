@@ -6,6 +6,7 @@ export {default as Ayva} from './Ayva/Ayva';
 export {default as Team} from './Team/Team';
 
 export {default as Tutorial} from './Tutorial/Tutorial';
+export {default as Contents} from './Tutorial/Contents';
 export {default as StepOne} from './Tutorial/StepOne';
 export {default as StepTwo} from './Tutorial/StepTwo';
 export {default as StepThree} from './Tutorial/StepThree';
