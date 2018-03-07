@@ -7,7 +7,6 @@ import './team.css'
 
 import kevin from './img/kevin.png'
 import gavin from './img/gavin.png'
-
 import linkedin from './img/linkedin.png'
 
 class Team extends Component {
