@@ -103,19 +103,19 @@
         flex-direction: column;
         align-self: center;
         padding-left: 2vw;
-        width: 20vw;
+        width: 40vw;
     }
     
     .bioDetails h1 {
         font-family: 'Dosis', sans-serif;
-        font-size: 5vw;
+        font-size: 7vw;
         color: #03236E;
         font-weight: 700;
     }
     
     .bioDetails h3 {
         font-family: 'Dosis', sans-serif;
-        font-size: 2.5vw;
+        font-size: 4vw;
         font-weight: 700;
         color: #2D333F;
     }
@@ -144,7 +144,7 @@
     
     .linkedInText a {
         font-family: 'Dosis', sans-serif;
-        font-size: 2.2vw;
+        font-size: 3vw;
         color: #146C74;
     }
 }

@@ -16,34 +16,6 @@
     width:50vw;
     padding-bottom: 2vh;
 }
-
-.ayvaComponents {
-    display:flex;
-    width:50vw;
-}
-
-.ayvaComponents h1 {
-    font-weight: 700;
-    font-size: 1.3vw;
-    color: #03236E;
-}
-
-
-.ayvaComponentList {
-    display:flex;
-    width:50vw;
-}
-
-.ayvaComponentList ul{
-    padding-bottom: 0;
-    list-style-type: none;
-    padding-left:0;
-}
-
-.ayvaComponentList li{
-    padding-bottom: 0;
-}
-
 .ayvaArchitecture {
     display:flex;
     width:70vw;
@@ -71,7 +43,7 @@
         width:100%;
         flex-direction: column;
         justify-content: center;
-        font-family: 'Raleway';
+        font-family: 'Lato', sans-serif;
         font-size: 3vw;
     }
     
@@ -79,23 +51,6 @@
         display:flex;
         width:70vw;
         padding-bottom: 2vh;
-    }
-    
-    .ayvaComponents {
-        display:flex;
-        width:70vw;
-    }
-    
-    .ayvaComponents h1 {
-        font-weight: bold;
-        font-size: 3vw;
-    }
-    
-    
-    .ayvaComponentList {
-        display:flex;
-        width:70vw;
-        padding-bottom: 1vh;
     }
     
     .ayvaBenefit {
@@ -113,6 +68,13 @@
     .ayvaArchitectureImg {
         height: 100%;
         width: 100%;
+    }
+
+    .ayva {
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        color: #A40E4C;
+        font-size: 4vw;
     }
 
 
