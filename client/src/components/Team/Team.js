@@ -31,7 +31,9 @@ class Team extends Component {
                         />
                     </div>
                     <div className='contactUs'>
+                        <div className='emailLink'>
                         <a href='mailto:founders@refreshlabs.co'>Get in touch.</a>
+                        </div>
                     </div>
                 </div>
             </div>

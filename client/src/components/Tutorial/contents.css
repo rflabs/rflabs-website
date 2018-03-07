@@ -17,9 +17,7 @@
 .contentList {
     display: flex;
     flex-direction: column;
-    padding-left: 1vw;
-    list-style: "-";
-    
+    padding-left: 1vw;    
 }
 
 .contentList a {

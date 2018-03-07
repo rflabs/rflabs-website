@@ -9,7 +9,7 @@ class MIT extends Component {
             <div className='mainContainer'>
                 <div className='mainOne'>
                     <div className='mitLicense'>
-                        <span>Copyright 2017-present Refresh Labs</span>
+                        <span>Copyright 2017-present Refresh Labs LLC</span>
                         <span>https://refreshlabs.co</span>
                         <br />
                         <span>MIT License</span>
