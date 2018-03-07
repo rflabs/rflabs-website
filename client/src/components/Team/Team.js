@@ -30,6 +30,9 @@ class Team extends Component {
                             linkedInURL='https://www.linkedin.com/in/gavin-berkowitz-aa685223/'
                         />
                     </div>
+                    <div className='contactUs'>
+                        <a href='mailto:founders@refreshlabs.co'>Get in touch.</a>
+                    </div>
                 </div>
             </div>
         )

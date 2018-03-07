@@ -71,6 +71,17 @@
     color: #146C74;
 }
 
+.contactUs {
+    display: flex;
+    justify-content: center;
+}
+
+.contactUs a {
+    font-size: 3vw;
+    font-family: 'Dosis', sans-serif;
+    color: #DA4167;
+}
+
 @media only screen and (max-width: 768px) {
     .teamBox {
         display: flex;
@@ -146,5 +157,16 @@
         font-family: 'Dosis', sans-serif;
         font-size: 3vw;
         color: #146C74;
+    }
+
+    .contactUs {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contactUs a {
+        font-size: 8vw;
+        font-family: 'Dosis', sans-serif;
+        color: #DA4167;
     }
 }
