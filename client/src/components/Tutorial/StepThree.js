@@ -54,7 +54,7 @@ class StepThree extends Component {
                     <span>Ayva currently uses <a href='https://dialogflow.com/docs/reference/agent/'>Dialogflow V1 API</a>. In order to utilize Ayva deploy, you will need 
                         your Dialogflow Developer access token. Ayva will use this to
                         import your voice application's interaction model to Dialogflow.</span>
-                    <a name='stepFour'></a>
+                    <a id='stepFour'><span className='hidden'>stepFour</span></a>
                 </div>
             </div>
         )

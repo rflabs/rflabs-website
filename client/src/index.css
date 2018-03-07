@@ -60,3 +60,7 @@ body {
 .code {
     background-color: #CBCDCD;
 }
+
+.hidden {
+    font-size: 0;
+}
