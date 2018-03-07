@@ -26,7 +26,7 @@ class Team extends Component {
                             linkedin = {linkedin}
                             individual={gavin}
                             bioTitle='Co-founder, CTO'
-                            bioName='Gavin Berokwitz'
+                            bioName='Gavin Berkowitz'
                             linkedInURL='https://www.linkedin.com/in/gavin-berkowitz-aa685223/'
                         />
                     </div>
