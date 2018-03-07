@@ -26,7 +26,7 @@ class Tutorial extends Component {
                 <div className='helloAyva'>
                     <div className='helloAyvaDescription'>
                         <h1>Hello Ayva.</h1>
-                        <span>A tutorial of how to use Ayva to create and deploy a voice application on your local voice 
+                        <span className='helloAyvaDescriptionText'>A tutorial of how to use Ayva to create and deploy a voice application on your local voice 
                         assistant device.</span>
                         <a id='stepOne'><span className='hidden'>stepOne</span></a>
                     </div>
