@@ -1,0 +1,72 @@
+
+.teamBox {
+    display: flex;
+    height: 100%;
+    
+}
+
+.halfBox {
+    display: flex;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshotBox {
+    display: flex;
+}
+
+.headshot {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.bioDetails {
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 2vw;
+}
+
+.bioDetails h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3vw;
+    color: #03236E;
+    font-weight: 700;
+}
+
+.bioDetails h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: #2D333F;
+}
+
+.bioSocialMedia {
+    display:flex;
+    align-items: center;
+}
+
+.linkedin {
+    display: flex;
+    max-width: 18px;
+    max-height: 18px;
+}
+
+.linkedInIcon {
+    display: flex;
+    align-items: center;
+    padding-right: .5vw;
+}
+
+.linkedInText {
+    display: flex;
+    align-items: center;
+}
+
+.linkedInText a {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.0vw;
+    color: #146C74;
+}
