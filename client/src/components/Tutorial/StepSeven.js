@@ -18,7 +18,7 @@ class StepSeven extends Component {
                     <div className='tutorialImgBox'>
                         <h3>7a. Confirm intents have been successfully imported</h3>
                         <span>In Dialogflow, click on the 'Intents' tab to see all intents defined for your agent. 
-                        <span className='ayvaHighlight'>Hello Ayva</span> creates 5 intents.</span>
+                        <span className='ayvaHighlight'> Hello Ayva</span> creates 5 intents.</span>
                         <span className='footNote'>(Born, EnableBorn, Name, and Welcome)</span>
                         <br />
                         <img className='threeImg' src={checkIntents} alt='checkIntents'/>
