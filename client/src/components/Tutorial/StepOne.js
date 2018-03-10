@@ -15,7 +15,7 @@ class StepOne extends Component {
                         <span className='code'>npm install -g ayva-cli</span>
                     </span>
                     <br />
-                    <span>Use a command line tool to install the Ayva command line interface (CLI). This tool will allow you to create new voice assistant projects 
+                    <span>Use a command line tool to install the <span className='ayvaHighlight'>Ayva command line interface (CLI)</span>. This tool will allow you to create new voice assistant projects 
                     and deploy interaction models to any supported voice assistant platform.</span>
                     <br />
                     <div className='stepLinks'>

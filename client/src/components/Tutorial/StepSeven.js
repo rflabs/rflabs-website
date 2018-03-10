@@ -16,16 +16,26 @@ class StepSeven extends Component {
                 <br />
                 <div className='stepDescriptionBox'>
                     <div className='tutorialImgBox'>
-                        <h3>a. Ensure intents have been successfully imported</h3>
+                        <h3>7a. Confirm intents have been successfully imported</h3>
                         <span>In Dialogflow, click on the 'Intents' tab to see all intents defined for your agent. 
-                        Ayva Hello creates 5 intents (Born, EnableBorn, Name, and Welcome).</span>
+                        <span className='ayvaHighlight'>Hello Ayva</span> creates 5 intents.</span>
+                        <span className='footNote'>(Born, EnableBorn, Name, and Welcome)</span>
                         <br />
                         <img className='threeImg' src={checkIntents} alt='checkIntents'/>
                     </div>
                     <br />
                     <div className='tutorialImgBox'>
-                        <h3>b. Configure Google Assistant integration</h3>
-                        <span>In Dialogflow, cick on the 'Integrations' tab. On the top of the page you will see a link called 
+                        <h3>7b. Confirm Bespoken proxy and voice app services are running</h3>
+                        <span>
+                            In order to see your locally hosted <span className='ayvaHighlight'>Hello Ayva </span> 
+                            app in action, ensure both the Bespoken tool proxy service
+                            <a href='/tutorial#stepFour' className='stepHighlight'> (Step 4a)</a> and the voice app service
+                            <a href='/tutorial#stepSix' className='stepHighlight'> (Step 6b)</a> are active.</span>
+                    </div>
+                    <br />
+                    <div className='tutorialImgBox'>
+                        <h3>7c. Configure Google Assistant integration</h3>
+                        <span>In Dialogflow, click on the <a href='https://console.dialogflow.com/api-client/#/agent//integrations' className='linkHighlight'>Integrations</a> tab. On the top of the page you will see a link called 
                         'Integration Settings' under the Google Assistant Integrations panel. This is how we will configure the 
                         welcome intent with Google Assistant.</span>
                         <br />
@@ -33,21 +43,20 @@ class StepSeven extends Component {
                     </div>
                     <br />
                     <div className='tutorialImgBox'>
-                        <h3>c. Set the explicit invocation intent , enable auto-preview changes, and test.</h3>
-                        <span>In Dialogflow, cick on the 'Integrations' tab. On the top of the page you will see a link called 
-                        'Integration Settings' under the Google Assistant Integrations panel. This is how we will configure 
-                        the welcome intent with Google Assistant.</span>
+                        <h3>7d. Set the explicit invocation intent , enable auto-preview changes, and test.</h3>
+                        <span>First, change the explicit invocation to 'Welcome'. Then click on the button to enable 'Auto-preview changes'. Finally, click 'Test' to deploy agent to Google Assistant.</span>
                         <br />
                         <img className='threeImg' src={gAssistantSetup} alt='gAssistantSetup'/>
                     </div>
                     <br />
                     <div className='tutorialImgBox'>
-                        <h3>d. Talk to my test app</h3>
-                        <span>You should now be in the 'Actions on Google' simulator page. Go ahead and input 'Talk to my test app' into 
-                        the chat simulator to begin Ayva Hello!</span>
+                        <h3>7e. Talk to my test app</h3>
+                        <span>Now try talking to your local version of <span className='ayvaHighlight'>Hello Ayva</span> by saying <span className='speechHighlight'>"talk to my test app"</span> through any Google Assistant enabled device.</span>
+                        <span className='footNote'>(Google Home or any Android mobile device)</span>
                         <br />
                         <img className='threeImg' src={googleSimulator} alt='googleSimulator'/>
                     </div>
+                    <a id='stepEight'><span className='hidden'>stepEight</span></a>
                 </div>
             </div>
         )

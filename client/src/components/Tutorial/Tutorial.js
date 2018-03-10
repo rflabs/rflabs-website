@@ -10,6 +10,7 @@ import {StepOne,
         StepFive,
         StepSix,
         StepSeven,
+        StepEight,
         Contents} from '../../components'
 
 import terminal from './img/terminal.png'
@@ -26,8 +27,8 @@ class Tutorial extends Component {
                 <div className='helloAyva'>
                     <div className='helloAyvaDescription'>
                         <h1>Hello Ayva.</h1>
-                        <span className='helloAyvaDescriptionText'>A tutorial of how to use Ayva to create and deploy a voice application on your local voice 
-                        assistant device.</span>
+                        <span className='helloAyvaDescriptionText'>A simple tutorial of how to use Ayva to create a voice 
+                        application on your local device.</span>
                         <a id='stepOne'><span className='hidden'>stepOne</span></a>
                     </div>
                     <StepOne terminal={terminal} npm={npm} githubBlack={githubBlack} />
@@ -37,6 +38,7 @@ class Tutorial extends Component {
                     <StepFive terminal={terminal} />
                     <StepSix terminal={terminal}/>
                     <StepSeven />
+                    <StepEight />
                 </div>
             </div>
         )

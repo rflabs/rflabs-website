@@ -6,7 +6,7 @@ class StepSix extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span className='stepHeader'><span className='stepTitle'>Step 6. </span>Ayva deploy</span>
+                    <span className='stepHeader'><span className='stepTitle'>Step 6. </span>Ayva deploy & npm start</span>
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />
@@ -16,9 +16,24 @@ class StepSix extends Component {
                     </span>
                     <br />
                     <div className='tutorialImgBox'>
-                        <h3>a. Import interaction model to Dialogflow agent</h3>
-                        <span>Navigate into the 'avya-hello' directory created in step 5, and run this command. This will 
-                        push the pre-defined interaction model in this voice application to the Dialogflow agent you created in Step 3. </span>
+                        <h3>6a. Import interaction model to Dialogflow agent</h3>
+                        <span>
+                            Navigate into the the project directory, <span className='ayvaHighlight'>hello-ayva </span>
+                            <a href='/tutorial#stepFive' className='stepHighlight'>(created in step 5)</a>, and run
+                            <span className='code'> ayva deploy</span>. This will push the pre-defined interaction model 
+                            in this voice application to the Dialogflow agent
+                            <a href='/tutorial#stepThree' className='stepHighlight'> (created in Step 3)</a>.</span>
+                    </div>
+                    <br />
+                    <span className='terminalDescription'>
+                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
+                        <span className='code'>npm start</span>
+                    </span>
+                    <br />
+                    <div className='tutorialImgBox'>
+                        <h3>6b. Run Hello Ayva in development mode</h3>
+                        <span>To start the voice app service, navigate into the root of the <span className='ayvaHighlight'>Hello Ayva</span> project folder and run <span className='code'>npm start</span>.</span> 
+                        <span className='footNote'>(Bespoken Tool's proxy URL hosts this local service for you)</span>
                     </div>
                     <a id='stepSeven'><span className='hidden'>stepSeven</span></a>
                 </div>

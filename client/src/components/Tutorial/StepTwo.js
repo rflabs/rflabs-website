@@ -1,6 +1,7 @@
 
 import React, {Component} from 'react'
 
+import bespokenTools from './img/bespokenTools.png'
 
 
 class StepTwo extends Component {
@@ -17,18 +18,18 @@ class StepTwo extends Component {
                         <span className='code'>npm install -g bespoken-tools</span>
                     </span>
                     <br />
-                    <span>The Ayva deploy command in our CLI utilizes <a href='https://bespoken.io/bst/'>Bespoken</a> to create a local proxy url. 
-                    This greatly increase the efficiecy of local development. Using a local proxy avoids the 
-                    necessity to deploy your code on every update.</span>
+                    <span>
+                        The command <span className='code'>ayva deploy</span>
+                        <a href='/tutorial#stepSix' className='stepHighlight'> (Step 6)</a> utilizes
+                        <a href='https://bespoken.io/bst/' className='bespokenHighlight'> Bespoken</a> to create a local proxy url. 
+                        Using a local proxy avoids the necessity to deploy your code on every update. This greatly increase the 
+                        efficiecy of local development.</span>
                     <br />
-                    <div className='stepLinks'>
-                        <div className='npmBox'>
-                            <a href='https://www.npmjs.com/package/bespoken-tools'><img className='npm' src={this.props.npm} alt='npm'/></a>
-                        </div>
-                        <div className='githubBox'>
-                            <a href='https://github.com/bespoken/bst'><img className='githubBlack' src={this.props.githubBlack} alt='githubBlack'/></a>
-                        </div>
+                    <div className='tutorialImgBox'>
+                        <img className='threeImg' src={bespokenTools} alt='bespokenTools'/>
                     </div>
+                    <br />
+                    <span className='footNote'><a href='https://ngrok.com/'>(Ngrok</a> or similar can be used in place of <a href='https://bespoken.io'>Bespoken)</a>.</span>
                     <a id='stepThree'><span className='hidden'>stepThree</span></a>
                 </div>
             </div>

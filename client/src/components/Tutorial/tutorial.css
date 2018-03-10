@@ -152,11 +152,36 @@
 
 .footNote {
     color: #9B9B9B;
-    font-size: .9vw;
+    font-size: 1vw;
+    font-style: italic;
 }
 
 .footNote a {
     color: #9B9B9B;
     font-size: .9vw;
     text-decoration: underline;
+}
+
+.ayvaHighlight {
+    color: #03236E;
+    font-weight: bold;
+}
+
+.bespokenHighlight {
+    color: #146C74;
+    font-weight: bold;
+}
+
+.stepHighlight {
+    color: #DA4067;
+}
+
+.linkHighlight {
+    color: #146C74;
+    font-weight: bold;
+}
+
+.speechHighlight {
+    color: #DA4067;
+    font-weight: bold;
 }
