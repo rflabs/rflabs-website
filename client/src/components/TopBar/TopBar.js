@@ -21,7 +21,13 @@ class TopBar extends Component {
                             <NavLink to='/ayva'><span>Ayva</span></NavLink>
                         </div>
                         <div className='links'>
-                            <NavLink to='/tutorial'><span>Tutorial</span></NavLink>
+                            <div className='dropdown'>
+                                <span>Tutorial</span>
+                                <div className='dropdown-content'>
+                                    <NavLink to='/tutorial/google'><span>Google - Part 1</span></NavLink>
+                                    <NavLink to='/tutorial/alexa'><span>Alexa - Part 2</span></NavLink>
+                                </div>
+                            </div>
                         </div>
                         <div className='links'>
                             <a href="https://rflabs.github.io/ayva-documentation/">Docs</a>

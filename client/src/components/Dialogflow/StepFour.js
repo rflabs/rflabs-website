@@ -11,8 +11,8 @@ class StepFour extends Component {
                 <div className='stepTitleBox'>
                     <span className='stepHeader'><span className='stepTitle'>Step 4. </span>Bespoken local proxy & webhook setup</span>
                 </div>
-                <div className='stepDescriptionBox'>
                 <br />
+                <div className='stepDescriptionBox'>
                     <span className='terminalDescription'>
                         <img className='terminal' src={this.props.terminal} alt='terminal'/>
                         <span className='code'>bst proxy http 8080 --verbose</span>

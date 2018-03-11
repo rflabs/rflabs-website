@@ -52,6 +52,29 @@
     color: #2D333F;
 }
 
+.dropdown {
+    flex: 1 1 0;
+    align-self: center;
+}
+
+.dropdown-content {
+    display: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: .5vw;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 8vw;
+    border-radius: 5px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .team {
     display: flex;
     flex-wrap: nowrap;

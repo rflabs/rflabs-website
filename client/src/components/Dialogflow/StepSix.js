@@ -21,8 +21,7 @@ class StepSix extends Component {
                             Navigate into the the project directory, <span className='ayvaHighlight'>hello-ayva </span>
                             <a href='/tutorial#stepFive' className='stepHighlight'>(created in step 5)</a>, and run
                             <span className='code'> ayva deploy</span>. This will push the pre-defined interaction model 
-                            in this voice application to the Dialogflow agent
-                            <a href='/tutorial#stepThree' className='stepHighlight'> (created in Step 3)</a>.</span>
+                            in this voice application to the Dialogflow agent <a href='/tutorial#stepThree' className='stepHighlight'>(created in Step 3)</a>.</span>
                     </div>
                     <br />
                     <span className='terminalDescription'>

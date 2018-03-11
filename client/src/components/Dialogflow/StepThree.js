@@ -17,7 +17,7 @@ class StepThree extends Component {
                 <div className='stepDescriptionBox'>
                     <br />
                     <div className='tutorialImgBox'>
-                        <h3>3a. <a href='https://console.dialogflow.com/api-client/authorize_url_google/nopopup' className='linkHighlight'>Sign in to Dialogflow with Google</a></h3>
+                        <h3>3a. <a href='https://console.dialogflow.com/api-client/#/login' className='linkHighlight'>Sign in to Dialogflow with Google</a></h3>
                         <span>In order to create a new voice app on
                             <a href='https://assistant.google.com/' className='linkHighlight'> Google Assistant</a>, we will first need to 
                             create a <a href='' className='linkHighlight'>Dialogflow</a> account to create a new skill.</span>

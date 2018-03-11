@@ -1,18 +1,18 @@
 
 import React, {Component} from 'react'
 
-import {Tutorial} from '../../components'
+import {Dialogflow} from '../../components'
 import {TopBarContainer} from '../../containers'
 
-class TutorialContainer extends Component {
+class DialogflowContainer extends Component {
     render() {
         return (
             <div className='ayvaMain'>
                 <TopBarContainer />
-                <Tutorial />
+                <Dialogflow />
             </div>
         )
     }
 }
 
-export default TutorialContainer
+export default DialogflowContainer

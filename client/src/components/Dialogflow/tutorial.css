@@ -41,7 +41,7 @@
 
 .helloAyvaDescription h1 {
     font-family: 'Dosis', sans-serif;
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: #03236E;
     font-weight: 700;
 }
@@ -143,6 +143,7 @@
 .threeImg {
     max-height: 100%;
     max-width: 700px;
+    image-rendering: auto;
 }
 
 .cmdLineImg {

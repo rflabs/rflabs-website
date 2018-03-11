@@ -7,15 +7,20 @@ export {default as Ayva} from './Ayva/Ayva';
 export {default as Team} from './Team/Team';
 export {default as Headshot} from './Team/Headshot';
 
-export {default as Tutorial} from './Tutorial/Tutorial';
-export {default as Contents} from './Tutorial/Contents';
-export {default as StepOne} from './Tutorial/StepOne';
-export {default as StepTwo} from './Tutorial/StepTwo';
-export {default as StepThree} from './Tutorial/StepThree';
-export {default as StepFour} from './Tutorial/StepFour';
-export {default as StepFive} from './Tutorial/StepFive';
-export {default as StepSix} from './Tutorial/StepSix';
-export {default as StepSeven} from './Tutorial/StepSeven';
-export {default as StepEight} from './Tutorial/StepEight';
+export {default as Dialogflow} from './Dialogflow/Dialogflow';
+export {default as DialogflowInstructions} from './Dialogflow/Instructions';
+export {default as StepOne} from './Dialogflow/StepOne';
+export {default as StepTwo} from './Dialogflow/StepTwo';
+export {default as StepThree} from './Dialogflow/StepThree';
+export {default as StepFour} from './Dialogflow/StepFour';
+export {default as StepFive} from './Dialogflow/StepFive';
+export {default as StepSix} from './Dialogflow/StepSix';
+export {default as StepSeven} from './Dialogflow/StepSeven';
+export {default as StepEight} from './Dialogflow/StepEight';
+
+export {default as Alexa} from './Alexa/Alexa';
+export {default as StepNine} from './Alexa/StepNine';
+export {default as StepTen} from './Alexa/StepTen';
+export {default as StepEleven} from './Alexa/StepEleven';
 
 export {default as MIT} from './MIT/MIT';

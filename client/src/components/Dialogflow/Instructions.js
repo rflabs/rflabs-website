@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 
 import './contents.css'
 
-class Contents extends Component {
+class Instructions extends Component {
     render() {
         return (
             <div className='tableOfContents'>
@@ -23,5 +23,5 @@ class Contents extends Component {
     }
 }
 
-export default Contents
+export default Instructions
 
