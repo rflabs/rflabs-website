@@ -52,8 +52,12 @@
     color: #2D333F;
 }
 
+.links a:hover {
+    text-decoration: none;
+}
+
 .dropdown {
-    flex: 1 1 0;
+    display: inline-block;
     align-self: center;
 }
 
@@ -63,8 +67,11 @@
     padding-left: .5vw;
     position: absolute;
     background-color: #ffffff;
-    min-width: 10vw;
+    min-width: 8.5vw;
     border-radius: 5px;
+    border: 1px solid #ECECEC;
+    font-size: 1vw;
+    box-shadow: 3px 3px 5px grey;
 }
 
 .dropdown:hover .dropdown-content {
@@ -89,6 +96,10 @@
 
 .team span {
     color: #2D333F;
+}
+
+.team a:hover {
+    text-decoration: none;
 }
 
 .goToMain {
