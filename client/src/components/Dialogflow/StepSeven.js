@@ -29,8 +29,8 @@ class StepSeven extends Component {
                         <span>
                             In order to see your locally hosted <span className='ayvaHighlight'>Hello Ayva </span> 
                             app in action, ensure both the Bespoken tool proxy service
-                            <a href='/tutorial#stepFour' className='stepHighlight'> (Step 4a)</a> and the voice app service
-                            <a href='/tutorial#stepSix' className='stepHighlight'> (Step 6b)</a> are active.</span>
+                            <a href='#stepFour' className='stepHighlight'> (Step 4a)</a> and the voice app service
+                            <a href='#stepSix' className='stepHighlight'> (Step 6b)</a> are active.</span>
                     </div>
                     <br />
                     <div className='tutorialImgBox'>

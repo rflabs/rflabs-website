@@ -20,7 +20,7 @@ class StepTwo extends Component {
                     <br />
                     <span>
                         The command <span className='code'>ayva deploy</span>
-                        <a href='/tutorial#stepSix' className='stepHighlight'> (Step 6)</a> utilizes
+                        <a href='#stepSix' className='stepHighlight'> (Step 6)</a> utilizes
                         <a href='https://bespoken.io/bst/' className='bespokenHighlight'> Bespoken</a> to create a local proxy url. 
                         Using a local proxy avoids the necessity to deploy your code on every update. This greatly increase the 
                         efficiecy of local development.</span>
