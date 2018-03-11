@@ -1,9 +1,12 @@
 
 import React, {Component} from 'react'
 
-import {StepNine,
+import {AlexaInstructions,
+        StepNine,
         StepTen,
-        StepEleven} from '../../components'
+        StepEleven,
+        StepTwelve,
+        StepThirteen} from '../../components'
 
 import terminal from '../../img/terminal.png'
 
@@ -12,7 +15,7 @@ class Alexa extends Component {
         return (
             <div className='ayvaBox'>
                 <div className='contentsBox'>
-
+                    <AlexaInstructions />
                 </div>
                 <div className='helloAyva'>
                     <div className='helloAyvaDescription'>
@@ -24,6 +27,8 @@ class Alexa extends Component {
                     <StepNine />
                     <StepTen terminal={terminal} />
                     <StepEleven terminal={terminal} />
+                    <StepTwelve terminal={terminal} />
+                    <StepThirteen />
                 </div>
             </div>
         )

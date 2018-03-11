@@ -15,11 +15,17 @@ class StepEleven extends Component {
                     </span>
                     <br />
                     <div className='tutorialImgBox'>
-                        <h3>10a. Run command to add Alexa configuration to Hello Ayva project.</h3>
-                        <span> This creates a public URL for accessing the local service you will be starting for <span className='ayvaHighlight'>Hello Ayva</span>.</span>
-                        <span className='footNote'>(Runs on port 8080 by default)</span>
+                        <h3>10a. Run command in root of existing Hello Ayva project to add Alexa Skill ID.</h3>
+                        <span>In order to configure <span className='code'>ayva deploy</span> for Alexa, we will need to add your Alexa Skill ID to the <span className='ayvaHighlight'>ayva.json</span> file in your existing Hello Ayva project folder. </span>
+                        
+                    </div>
+                    <br />
+                    <div className='tutorialImgBox'>
+                        <h3>10b. Select 'Alexa' and enter the Alexa Skill ID <a href='#stepNine' className='stepHighlight'>(Step 9e)</a>.</h3>
+                        <span>In order to configure <span className='code'>ayva deploy</span> for Alexa, we will need to add your Alexa Skill ID to the <span className='ayvaHighlight'>ayva.json</span> file in your existing Hello Ayva project folder. </span>
                         <br />
                     </div>
+                    <a id='stepTwelve'><span className='hidden'>stepTwelve</span></a>
                 </div>
             </div>
         )

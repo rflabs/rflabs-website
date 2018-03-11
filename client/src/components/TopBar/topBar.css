@@ -60,19 +60,21 @@
 .dropdown-content {
     display: none;
     padding-top: 1vh;
-    padding-bottom: 1vh;
     padding-left: .5vw;
     position: absolute;
     background-color: #ffffff;
-    min-width: 8vw;
+    min-width: 10vw;
     border-radius: 5px;
-    
 }
 
 .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
     
+}
+
+.dropdown-content a {
+    padding-bottom: 1vh;
 }
 
 .team {

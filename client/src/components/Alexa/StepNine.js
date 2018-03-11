@@ -55,6 +55,7 @@ class StepNine extends Component {
                         <br />
                         <img className='threeImg' src={stepNineE2} alt='stepNineE2' />
                     </div>
+                    <a id='stepTen'><span className='hidden'>stepTen</span></a>
                 </div>
             </div>
         )

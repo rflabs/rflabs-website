@@ -32,7 +32,7 @@ class StepSix extends Component {
                     <div className='tutorialImgBox'>
                         <h3>6b. Run Hello Ayva in development mode</h3>
                         <span>To start the voice app service, navigate into the root of the <span className='ayvaHighlight'>Hello Ayva</span> project folder and run <span className='code'>npm start</span>.</span> 
-                        <span className='footNote'>(Bespoken Tool's proxy URL hosts this local service for you)</span>
+                        <span className='footNote'>(Bespoken Tool's proxy creates a public URL for this local service)</span>
                     </div>
                     <a id='stepSeven'><span className='hidden'>stepSeven</span></a>
                 </div>

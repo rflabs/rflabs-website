@@ -1,5 +1,6 @@
 
 import React, {Component} from 'react'
+import { NavLink } from 'react-router-dom'
 
 class StepEight extends Component { 
     render() {
@@ -12,6 +13,8 @@ class StepEight extends Component {
                 <div className='stepDescriptionBox'>
                     <div className='tutorialImgBox'>
                         <span>The next part of this tutorial will walk you through how to add Alexa to <span className='ayvaHighlight'>Hello Ayva</span>.</span>
+                        <br />
+                        <a href='/tutorial/alexa' className='nextTutorial'><span>Introduce Ayva to Alexa (Part 2).</span></a>
                     </div>
                 </div>
             </div>

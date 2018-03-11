@@ -19,8 +19,11 @@ export {default as StepSeven} from './Dialogflow/StepSeven';
 export {default as StepEight} from './Dialogflow/StepEight';
 
 export {default as Alexa} from './Alexa/Alexa';
+export {default as AlexaInstructions} from './Alexa/Instructions';
 export {default as StepNine} from './Alexa/StepNine';
 export {default as StepTen} from './Alexa/StepTen';
 export {default as StepEleven} from './Alexa/StepEleven';
+export {default as StepTwelve} from './Alexa/StepTwelve';
+export {default as StepThirteen} from './Alexa/StepThirteen';
 
 export {default as MIT} from './MIT/MIT';

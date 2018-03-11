@@ -186,3 +186,10 @@
     color: #DA4067;
     font-weight: bold;
 }
+
+.nextTutorial {
+    color: #03236E;
+    font-size: 2vw;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}

@@ -9,7 +9,7 @@ class StepTen extends Component {
         return (
             <div className='stepBox'>
                 <div className='stepTitleBox'>
-                    <span className='stepHeader'><span className='stepTitle'>Step 10. </span>Install & configure Amazon Ask CLI</span>
+                    <span className='stepHeader'><span className='stepTitle'>Step 10. </span>Install Amazon Ask CLI</span>
                 </div>
                 <br />
                 <div className='stepDescriptionBox'>
@@ -39,8 +39,9 @@ class StepTen extends Component {
                         <br />
                         <img className='threeImg' src={askCLIThree} alt='askCLIThree' />
                         <br />
-                        <span> If all is successful, you should receive a vender ID and a message that says your profile was initialized successfully.</span> 
+                        <span> If all is successful, you should receive a vender ID and a message that says your profile was initialized successfully in your command line tool.</span> 
                     </div>
+                    <a id='stepEleven'><span className='hidden'>stepEleven</span></a>
                 </div>
             </div>
         )
