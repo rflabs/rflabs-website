@@ -30,7 +30,7 @@ class TopBar extends Component {
                             </div>
                         </div>
                         <div className='links'>
-                            <a href="https://rflabs.github.io/ayva-documentation/">Docs</a>
+                            <a href="https://rflabs.github.io/ayva-doc/">Docs</a>
                         </div>
                         <div className='links'>
                             <a href="https://github.com/rflabs/ayva">Github</a>

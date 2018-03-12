@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "proxy": {
-    "/apps": {
+    "/ayva": {
       "target": "http://localhost:8080"
     },
-    "/voice": {
+    "/tutorial/google": {
       "target": "http://localhost:8080"
     },
-    "/info": {
+    "/tutorial/alexa": {
+      "target": "http://localhost:8080"
+    },
+    "/team": {
       "target": "http://localhost:8080"
     }
   },
