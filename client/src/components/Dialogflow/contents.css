@@ -28,6 +28,22 @@
 .contentList li{
     font-size: .9vw;
     font-family: 'Lato', sans-serif;
-    padding-bottom: 1vh;
     color: grey;
+    padding-bottom: 1vh;
+}
+
+.contentList li a {
+    font-size: .9vw;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+}
+
+:target {
+    font-weight: 700;
+    background-color: pink; 
+}
+
+.contentList li a:target {
+    font-weight: 700;
+    background-color: pink;
 }

@@ -9,14 +9,14 @@ class Instructions extends Component {
             <div className='tableOfContents'>
                 <h3>Instructions</h3>
                 <ol className='contentList'>
-                    <a href='#stepOne'><li>Install Avyva CLI</li></a>
-                    <a href='#stepTwo'><li>Install Bespoken Tools for local proxy</li></a>
-                    <a href='#stepThree'><li>Create Dialogflow developer account & agent</li></a>
-                    <a href='#stepFour'><li>Bespoken local proxy & webhook setup</li></a>
-                    <a href='#stepFive'><li>Ayva hello</li></a>
-                    <a href='#stepSix'><li>Ayva deploy</li></a>
-                    <a href='#stepSeven'><li>Test on Google Assistant</li></a>
-                    <a href='#stepEight'><li>Next steps (adding Alexa)</li></a>
+                    <li><a href='#stepOne'>Install Avyva CLI</a></li>
+                    <li><a href='#stepTwo'>Install Bespoken Tools for local proxy</a></li>
+                    <li><a href='#stepThree'>Create Dialogflow developer account & agent</a></li>
+                    <li><a href='#stepFour'>Bespoken local proxy & webhook setup</a></li>
+                    <li><a href='#stepFive'>Ayva hello</a></li>
+                    <li><a href='#stepSix'>Ayva deploy</a></li>
+                    <li><a href='#stepSeven'>Test on Google Assistant</a></li>
+                    <li><a href='#stepEight'>Next steps (adding Alexa)</a></li>
                 </ol>
             </div>
         )

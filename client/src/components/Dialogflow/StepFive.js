@@ -31,7 +31,7 @@ class StepFive extends Component {
                         <br />
                         <img className='cmdLineImg' src={helloTwo} alt='threeA'/>
                     </div>
-                    <a id='stepSix'><span className='hidden'>stepSix</span></a>
+                    <div key={'stepSix'} />
                 </div>
             </div>
         )

@@ -16,6 +16,9 @@ import {StepOne,
 import npm from './img/npm.png'
 import githubBlack from './img/github-black.png'
 
+import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor'
+configureAnchors({offset:-100})
+
 class Dialogflow extends Component {
     render() {
         return (
@@ -28,16 +31,32 @@ class Dialogflow extends Component {
                         <h1>Introduce Ayva to Google.</h1>
                         <span className='helloAyvaDescriptionText'>A simple tutorial of how to use Ayva to create a voice 
                         application on your Google Home or any Android mobile device (i.e <a href='https://assistant.google.com/' className='linkHighlight'>Google Assistant</a>).</span>
-                        <a id='stepOne'><span className='hidden'>stepOne</span></a>
+                        <div key={'stepOne'}></div>
                     </div>
-                    <StepOne npm={npm} githubBlack={githubBlack} />
-                    <StepTwo />
-                    <StepThree />
-                    <StepFour  />
-                    <StepFive  />
-                    <StepSix />
-                    <StepSeven />
-                    <StepEight />
+                    <ScrollableAnchor id={'stepOne'} >
+                        <StepOne npm={npm} githubBlack={githubBlack} />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepTwo'} >
+                        <StepTwo />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepThree'} >
+                        <StepThree />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepFour'} >
+                        <StepFour  />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepFive'} >
+                        <StepFive  />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepSix'} >
+                        <StepSix />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepSeven'} >
+                        <StepSeven />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepEight'} >
+                        <StepEight />
+                    </ScrollableAnchor>
                 </div>
             </div>
         )

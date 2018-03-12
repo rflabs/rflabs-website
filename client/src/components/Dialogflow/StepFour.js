@@ -35,7 +35,7 @@ class StepFour extends Component {
                         <img className='threeImg' src={dfFulfillment} alt='dfFulfillment'/>
                         <span className='footNote'>(DON'T FORGET TO CLICK THE SAVE BUTTON AT THE BOTTOM OF THE PAGE)</span>
                     </div>
-                    <a id='stepFive'><span className='hidden'>stepFive</span></a>
+                    <div key={'stepFive'} />
                 </div>
             </div>
         )

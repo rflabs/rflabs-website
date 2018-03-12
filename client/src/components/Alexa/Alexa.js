@@ -10,6 +10,9 @@ import {AlexaInstructions,
 
 import terminal from '../../img/terminal.png'
 
+import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor'
+configureAnchors({offset:-100})
+
 class Alexa extends Component {
     render() {
         return (
@@ -22,13 +25,23 @@ class Alexa extends Component {
                         <h1>Introduce Ayva to Alexa.</h1>
                         <span className='helloAyvaDescriptionText'>This is part 2 of the Hello Ayva tutorial. We will walk you through how to add Alexa to your existing Hello Ayva app.</span>
                         <br />
-                        <a id='stepNine'><span className='hidden'>stepNine</span></a>
+                        <div key={'stepNine'} />
                     </div>
-                    <StepNine />
-                    <StepTen terminal={terminal} />
-                    <StepEleven terminal={terminal} />
-                    <StepTwelve terminal={terminal} />
-                    <StepThirteen />
+                    <ScrollableAnchor id={'stepNine'}>
+                        <StepNine />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepTen'}>
+                        <StepTen terminal={terminal} />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepEleven'}>
+                        <StepEleven terminal={terminal} />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepTwelve'}>
+                        <StepTwelve terminal={terminal} />
+                    </ScrollableAnchor>
+                    <ScrollableAnchor id={'stepThirteen'}>
+                        <StepThirteen />
+                    </ScrollableAnchor>
                 </div>
             </div>
         )

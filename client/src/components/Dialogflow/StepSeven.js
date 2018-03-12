@@ -56,7 +56,7 @@ class StepSeven extends Component {
                         <br />
                         <img className='threeImg' src={googleSimulator} alt='googleSimulator'/>
                     </div>
-                    <a id='stepEight'><span className='hidden'>stepEight</span></a>
+                    <div key={'stepEight'}></div>
                 </div>
             </div>
         )

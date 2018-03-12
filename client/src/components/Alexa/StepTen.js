@@ -37,7 +37,7 @@ class StepTen extends Component {
                         <br />
                         <span> If all is successful, you should receive a vender ID and a message that says your profile was initialized successfully in your command line tool.</span> 
                     </div>
-                    <a id='stepEleven'><span className='hidden'>stepEleven</span></a>
+                    <div key={'stepEleven'} />
                 </div>
             </div>
         )

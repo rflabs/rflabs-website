@@ -15,9 +15,10 @@
     width: 100%;
     min-height: 50px;
     background-color: #1E1E1E;
-    border-radius: 10px;
+    border-radius: 7px;
     font-family: 'Courier New', monospace;
     align-items: center;
+    border: 2px solid #CCCCCC;
 }
 
 .terminalCode {

@@ -6,36 +6,18 @@
     flex-direction: column;
     justify-content: center;
     font-family: 'Lato', sans-serif;
-    font-size: 1vw;
 }
 
-.ayvaOverview {
-    display:flex;
-    justify-content: center;
-    width:50vw;
-    padding-bottom: 2vh;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2vw;
-    text-align: center;
-}
 .ayvaArchitecture {
-    display:flex;
-    width:70vw;
+    flex: 1 1 100;
     justify-content: center;
-    padding-bottom: 4vh;
 }
 
 .ayvaArchitectureImg {
-    height: 100%;
-    width: 70%;
+    height: auto;
+    width: 80vw;
+    max-width: 1200px;
 }
-
-.ayva {
-    font-weight: bold;
-    color: #A40E4C;
-    font-size: 1.3vw;
-}
-
 
 
 @media only screen and (max-width: 768px) {
@@ -47,12 +29,6 @@
         justify-content: center;
         font-family: 'Lato', sans-serif;
         font-size: 3vw;
-    }
-    
-    .ayvaOverview {
-        display:flex;
-        width:70vw;
-        padding-bottom: 2vh;
     }
     
     .ayvaBenefit {

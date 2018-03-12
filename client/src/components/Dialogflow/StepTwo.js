@@ -27,7 +27,7 @@ class StepTwo extends Component {
                     </div>
                     <br />
                     <span className='footNote'><a href='https://ngrok.com/'>(Ngrok</a> or similar can be used in place of <a href='https://bespoken.io'>Bespoken)</a>.</span>
-                    <a id='stepThree'><span className='hidden'>stepThree</span></a>
+                    <div key={'stepThree'} />
                 </div>
             </div>
         )

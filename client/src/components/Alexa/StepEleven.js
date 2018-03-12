@@ -24,7 +24,7 @@ class StepEleven extends Component {
                         <span>In order to configure <span className='code'>ayva deploy</span> for Alexa, we will need to add your Alexa Skill ID to the <span className='ayvaHighlight'>ayva.json</span> file in your existing Hello Ayva project folder. </span>
                         <br />
                     </div>
-                    <a id='stepTwelve'><span className='hidden'>stepTwelve</span></a>
+                    <div key={'StepTwelve'} />
                 </div>
             </div>
         )

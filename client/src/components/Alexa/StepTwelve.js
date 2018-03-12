@@ -24,7 +24,7 @@ class StepTwelve extends Component {
                         <span className='footNote'>(Bespoken Tool's proxy creates a public URL for this local service)</span>
                     </div>
                 </div>
-                <a id='stepThirteen'><span className='hidden'>stepThirteen</span></a>
+                <div key={'stepThirteen'} />
             </div>
         )
     }

@@ -7,6 +7,7 @@ class StepOne extends Component {
     render() {
         return (
             <div className='stepBox'>
+                
                 <div className='stepTitleBox'>
                     <span className='stepHeader'><span className='stepTitle'>Step 1. </span>Install Ayva CLI</span>
                 </div>
@@ -25,8 +26,9 @@ class StepOne extends Component {
                             <a href='https://github.com/bespoken/bst'><img className='githubBlack' src={this.props.githubBlack} alt='githubBlack'/></a>
                         </div>
                     </div>
-                    <a id='stepTwo'><span className='hidden'>stepTwo</span></a>
+                    <div key={'stepTwo'} />
                 </div>
+                
             </div>
         )
     }

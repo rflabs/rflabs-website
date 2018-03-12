@@ -6,11 +6,11 @@ class Instructions extends Component {
             <div className='tableOfContents'>
                 <h3>Instructions</h3>
                 <ol className='contentList' start="9">
-                    <a href='#stepNine'><li>Create Alexa developer account & new skill</li></a>
-                    <a href='#stepTen'><li>Install Amazon Ask CLI</li></a>
-                    <a href='#stepEleven'><li>Ayva init</li></a>
-                    <a href='#stepTwelve'><li>Ayva deploy</li></a>
-                    <a href='#stepTwelve'><li>Test on Alexa</li></a>
+                    <li><a href='#stepNine'>Create Alexa developer account & new skill</a></li>
+                    <li><a href='#stepTen'>Install Amazon Ask CLI</a></li>
+                    <li><a href='#stepEleven'>Ayva init</a></li>
+                    <li><a href='#stepTwelve'>Ayva deploy</a></li>
+                    <li><a href='#stepTwelve'>Test on Alexa</a></li>
                 </ol>
             </div>
         )
