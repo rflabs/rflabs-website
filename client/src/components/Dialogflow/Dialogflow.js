@@ -13,7 +13,6 @@ import {StepOne,
         StepEight,
         DialogflowInstructions} from '../../components'
 
-import terminal from '../../img/terminal.png'
 import npm from './img/npm.png'
 import githubBlack from './img/github-black.png'
 
@@ -31,12 +30,12 @@ class Dialogflow extends Component {
                         application on your Google Home or any Android mobile device (i.e <a href='https://assistant.google.com/' className='linkHighlight'>Google Assistant</a>).</span>
                         <a id='stepOne'><span className='hidden'>stepOne</span></a>
                     </div>
-                    <StepOne terminal={terminal} npm={npm} githubBlack={githubBlack} />
-                    <StepTwo terminal={terminal} />
+                    <StepOne npm={npm} githubBlack={githubBlack} />
+                    <StepTwo />
                     <StepThree />
-                    <StepFour terminal={terminal} />
-                    <StepFive terminal={terminal} />
-                    <StepSix terminal={terminal}/>
+                    <StepFour  />
+                    <StepFive  />
+                    <StepSix />
                     <StepSeven />
                     <StepEight />
                 </div>

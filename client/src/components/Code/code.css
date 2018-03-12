@@ -1,0 +1,40 @@
+
+.terminalDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.terminalBox {
+    display: flex;
+    align-items: center;
+}
+
+.terminalCodeBox {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    align-items: center;
+}
+
+.terminalCode {
+    flex: 1 1 0;
+    color: #F5F5F5;
+    padding-left: .5vw;
+}
+
+.terminal {
+    flex: 1 1 0;
+    align-self: center;
+    max-width: 20px;
+}
+.terminalHeader {
+    padding-left: .5vw;
+}
+
+.terminalPre {
+    color: #0DAD68;
+}

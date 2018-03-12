@@ -1,5 +1,6 @@
-
 import React, {Component} from 'react'
+
+import {Terminal} from '../../components'
 
 class StepSix extends Component {
     render() {
@@ -10,10 +11,7 @@ class StepSix extends Component {
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>ayva deploy</span>
-                    </span>
+                        <Terminal code='ayva deploy' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>6a. Import interaction model to Dialogflow agent</h3>
@@ -24,10 +22,7 @@ class StepSix extends Component {
                             in this voice application to the Dialogflow agent <a href='#stepThree' className='stepHighlight'>(created in Step 3)</a>.</span>
                     </div>
                     <br />
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>npm start</span>
-                    </span>
+                    <Terminal code='npm start' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>6b. Run Hello Ayva in development mode</h3>

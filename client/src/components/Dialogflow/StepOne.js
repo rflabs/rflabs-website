@@ -1,6 +1,8 @@
 
 import React, {Component} from 'react'
 
+import {Terminal} from '../../components'
+
 class StepOne extends Component {
     render() {
         return (
@@ -10,10 +12,7 @@ class StepOne extends Component {
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>npm install -g ayva-cli</span>
-                    </span>
+                    <Terminal code='npm install -g ayva-cli' />
                     <br />
                     <span>Use a command line tool to install the <span className='ayvaHighlight'>Ayva command line interface (CLI)</span>. This tool will allow you to create new voice assistant projects 
                     and deploy interaction models to any supported voice assistant platform.</span>

@@ -52,18 +52,6 @@
     color: #2D333F;
 }
 
-.terminalDescription {
-    display: flex;
-    align-items: center;
-}
-
-.terminal {
-    flex: 1 1 0;
-    margin-right: 0.5vw;
-    align-self: center;
-    max-width: 25px;
-    height: auto;
-}
 
 .stepBox {
     display: flex;

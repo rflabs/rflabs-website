@@ -24,8 +24,8 @@ class TopBar extends Component {
                             <div className='dropdown'>
                                 <span>Tutorial</span>
                                 <div className='dropdown-content'>
-                                    <NavLink to='/tutorial/google'><span>1. Google Assistant</span></NavLink>
-                                    <NavLink to='/tutorial/alexa'><span>2. Alexa</span></NavLink>
+                                        <NavLink to='/tutorial/google'><span>1. Google Assistant</span></NavLink>
+                                        <NavLink to='/tutorial/alexa'><span>2. Alexa</span></NavLink>
                                 </div>
                             </div>
                         </div>

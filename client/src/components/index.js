@@ -26,4 +26,6 @@ export {default as StepEleven} from './Alexa/StepEleven';
 export {default as StepTwelve} from './Alexa/StepTwelve';
 export {default as StepThirteen} from './Alexa/StepThirteen';
 
+export {default as Terminal} from './Code/Terminal';
+
 export {default as MIT} from './MIT/MIT';

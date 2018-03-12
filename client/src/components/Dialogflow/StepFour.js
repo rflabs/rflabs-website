@@ -1,6 +1,8 @@
 
 import React, {Component} from 'react'
 
+import {Terminal} from '../../components'
+
 import bstProxy from './img/bstProxy.png'
 import dfFulfillment from './img/dfFulfillment.png'
 
@@ -13,10 +15,7 @@ class StepFour extends Component {
                 </div>
                 <br />
                 <div className='stepDescriptionBox'>
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>bst proxy http 8080 --verbose</span>
-                    </span>
+                    <Terminal code='bst proxy http 8080 --verbose' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>4a. Run command to start a proxy service hosted by <a href='https://bespoken.io/bst/' className='linkHighlight'>Bespoken Tools</a>.</h3>

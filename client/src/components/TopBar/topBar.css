@@ -1,10 +1,8 @@
-
 .topBar {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     position: fixed;
-    padding-top: .5%;
     width: 100%;
     background-color: #ffffff;
     font-family: 'Dosis', sans-serif;
@@ -14,19 +12,23 @@
     display: flex;
     width: 90%;
     border-bottom: 1px solid #ECECEC;
+    padding-top: 1vh;
 }
 
 .leftContainer {
     display: flex;
     align-items: center;
     width: 50%;
-    padding-bottom: 1vh;
 }
 
 .logo {
-    display: flex;
+    flex: 1 1 0;
     flex-wrap: nowrap;
     align-items: center;
+}
+
+.rflabs-logo-website {
+    max-width: 250px;
 }
 
 .rightContainer {
@@ -34,18 +36,16 @@
     align-items: center;
     justify-content: flex-end;
     width:50%;
-    padding-bottom: 1vh;
 }
 
 .links {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin-right: 5%;
-    height:100%;
-    padding-top:1%;
-    font-size: 1.2vw;
+    margin-right: 2vw;
+    height: 7vh;
+    font-size: 1.3vw;
 }
 
 .links a {
@@ -57,8 +57,9 @@
 }
 
 .dropdown {
-    display: inline-block;
-    align-self: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .dropdown-content {
@@ -66,18 +67,22 @@
     padding-top: 1vh;
     padding-left: .5vw;
     position: absolute;
+    top: 7vh;
     background-color: #ffffff;
     min-width: 8.5vw;
     border-radius: 5px;
-    border: 1px solid #ECECEC;
+    border: 1px solid #CCCCCC;
     font-size: 1vw;
-    box-shadow: 3px 3px 5px grey;
+    box-shadow: 1px 1px 5px #CCCCCC;
+}
+
+.test {
+    display: flex;
 }
 
 .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
-    
 }
 
 .dropdown-content a {
@@ -87,11 +92,10 @@
 .team {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    height:100%;
-    padding-top:1%;
-    font-size: 1.2vw;
+    height: 7vh;
+    font-size: 1.3vw;
 }
 
 .team span {
@@ -108,32 +112,15 @@
     align-items: center;
     margin-right: 5%;
     height:100%;
-    
 }
 
-.spokenBoxTop {
-    display: flex;
-    align-self: center;
-}
-
-.spokenTextTop {
-    flex: 1 1 100%;
-    padding-left: 5px;
-    padding-top:4px;
-}
-
-.rflabs-logo-website {
-    width:50%;
-}
 
 @media only screen and (max-width: 768px) {
-
     .topBar {
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
         position: fixed;
-        padding-top: .5%;
         width: 100%;
         background-color: #ffffff;
         font-family: 'Dosis', sans-serif;
@@ -143,19 +130,26 @@
         display: flex;
         width: 90%;
         border-bottom: 1px solid #ECECEC;
+        padding-top: 1vh;
     }
     
     .leftContainer {
         display: flex;
         align-items: center;
         width: 50%;
-        padding-bottom: 1vh;
+        height: 100%;
     }
     
     .logo {
-        display: flex;
+        flex: 1 1 0;
         flex-wrap: nowrap;
         align-items: center;
+        padding-bottom: .5vh;
+    }
+    
+    .rflabs-logo-website {
+        max-width: 120px;
+        
     }
     
     .rightContainer {
@@ -163,17 +157,15 @@
         align-items: center;
         justify-content: flex-end;
         width:50%;
-        padding-bottom: 1vh;
     }
     
     .links {
         display: flex;
         flex-wrap: nowrap;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
-        margin-right: 5%;
-        height:100%;
-        padding-top:1vh;
+        margin-right: 2vw;
+        height: 7vh;
         font-size: 3vw;
     }
     
@@ -181,18 +173,58 @@
         color: #2D333F;
     }
     
+    .links a:hover {
+        text-decoration: none;
+    }
+    
+    .dropdown {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .dropdown-content {
+        display: none;
+        padding-top: 1vh;
+        padding-left: .5vw;
+        position: absolute;
+        top: 7vh;
+        background-color: #ffffff;
+        min-width: 25vw;
+        border-radius: 5px;
+        border: 1px solid #CCCCCC;
+        font-size: 3vw;
+        box-shadow: 1px 1px 5px #CCCCCC;
+    }
+    
+    .test {
+        display: flex;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dropdown-content a {
+        padding-bottom: 1vh;
+    }
+    
     .team {
         display: flex;
         flex-wrap: nowrap;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
-        height:100%;
-        padding-top:1vh;
+        height: 7vh;
         font-size: 3vw;
     }
     
     .team span {
         color: #2D333F;
+    }
+    
+    .team a:hover {
+        text-decoration: none;
     }
     
     .goToMain {
@@ -201,21 +233,5 @@
         align-items: center;
         margin-right: 5%;
         height:100%;
-        
-    }
-    
-    .spokenBoxTop {
-        display: flex;
-        align-self: center;
-    }
-    
-    .spokenTextTop {
-        flex: 1 1 100%;
-        padding-left: 5px;
-        padding-top:4px;
-    }
-    
-    .rflabs-logo-website {
-        width:50%;
     }
 }

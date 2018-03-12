@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import {Terminal} from '../../components'
+
 import askCLIOne from './img/askCLIOne.png'
 import askCLITwo from './img/askCLITwo.png'
 import askCLIThree from './img/askCLIThree.png'
@@ -13,10 +15,7 @@ class StepTen extends Component {
                 </div>
                 <br />
                 <div className='stepDescriptionBox'>
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>npm install -g ask-cli</span>
-                    </span>
+                    <Terminal code='npm install -g ask-cli' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>10a. Install Amazon Ask CLI NPM package.</h3>
@@ -24,10 +23,7 @@ class StepTen extends Component {
                         <br />
                     </div>
                     <br />
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>ask init</span>
-                    </span>
+                    <Terminal code='ask init' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>10b. Link Amazon developer account with Amazon Ask CLI.</h3>

@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import {Terminal} from '../../components'
+
 class StepEleven extends Component {
     render() {
         return (
@@ -9,10 +11,7 @@ class StepEleven extends Component {
                 </div>
                 <br />
                 <div className='stepDescriptionBox'>
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>ayva init</span>
-                    </span>
+                    <Terminal code='ayva init' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>10a. Run command in root of existing Hello Ayva project to add Alexa Skill ID.</h3>

@@ -1,5 +1,6 @@
-
 import React, {Component} from 'react'
+
+import {Terminal} from '../../components'
 
 import helloOne from './img/helloOne.png'
 import helloTwo from './img/helloTwo.png'
@@ -13,10 +14,7 @@ class StepFive extends Component {
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>ayva hello</span>
-                    </span>
+                    <Terminal code='ayva hello' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>5a. Run command in the local directory you'd like the <span className='ayvaHighlight'>Hello Ayva</span> project files to be created in.</h3>

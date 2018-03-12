@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import {Terminal} from '../../components'
+
 class StepTwelve extends Component {
     render() {
         return (
@@ -9,10 +11,7 @@ class StepTwelve extends Component {
                 </div>
                 <br />
                 <div className='stepDescriptionBox'>
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>ayva deploy</span>
-                    </span>
+                    <Terminal code='ayva deploy' />
                     <br />
                     <div className='tutorialImgBox'>
                         <h3>12a. Import interaction model to Alexa skill.</h3>

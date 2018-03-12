@@ -1,8 +1,8 @@
-
 import React, {Component} from 'react'
 
-import bespokenTools from './img/bespokenTools.png'
+import {Terminal} from '../../components'
 
+import bespokenTools from './img/bespokenTools.png'
 
 class StepTwo extends Component {
     render() {
@@ -13,10 +13,7 @@ class StepTwo extends Component {
                 </div>
                 <div className='stepDescriptionBox'>
                     <br />
-                    <span className='terminalDescription'>
-                        <img className='terminal' src={this.props.terminal} alt='terminal'/>
-                        <span className='code'>npm install -g bespoken-tools</span>
-                    </span>
+                    <Terminal code='npm install -g bespoken-tools' />
                     <br />
                     <span>
                         The command <span className='code'>ayva deploy</span>
