@@ -12,7 +12,6 @@
     display: flex;
     width: 90%;
     border-bottom: 1px solid #ECECEC;
-    padding-top: 1vh;
 }
 
 .leftContainer {
@@ -25,6 +24,7 @@
     flex: 1 1 0;
     flex-wrap: nowrap;
     align-items: center;
+    padding-bottom: .5vh;
 }
 
 .rflabs-logo-website {
@@ -69,10 +69,10 @@
     position: absolute;
     top: 7vh;
     background-color: #ffffff;
-    min-width: 8.5vw;
+    min-width: 11vw;
     border-radius: 5px;
     border: 1px solid #CCCCCC;
-    font-size: 1vw;
+    font-size: 1.3vw;
     box-shadow: 1px 1px 5px #CCCCCC;
 }
 
@@ -130,7 +130,6 @@
         display: flex;
         width: 90%;
         border-bottom: 1px solid #ECECEC;
-        padding-top: 1vh;
     }
     
     .leftContainer {

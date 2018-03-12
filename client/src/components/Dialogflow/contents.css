@@ -1,34 +1,33 @@
 
 .tableOfContents {
-    display: flex;
+    flex: 1 1 0;
     flex-direction: column;
     position: fixed;
     top: 15vh;
-    width:12vw;
+    width:14vw;
+    background-color: #F7F8F9;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 .tableOfContents h3 {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
     color: #DA4067;
+    text-decoration: underline;
 }
 
 .contentList {
-    display: flex;
+    flex: 1 1 0;
     flex-direction: column;
     padding-left: 1vw;    
-}
-
-.contentList a {
-    font-size: .8vw;
-    font-family: 'Lato', sans-serif;
-    padding-bottom: .5vh;
-    color: grey;
+    
 }
 
 .contentList li{
-    font-size: .8vw;
+    font-size: .9vw;
     font-family: 'Lato', sans-serif;
-    padding-bottom: .5vh;
+    padding-bottom: 1vh;
+    color: grey;
 }

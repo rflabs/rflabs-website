@@ -1,5 +1,3 @@
-
-
 .ayvaDescription {
     display: flex;
     height: 100%;
@@ -13,8 +11,12 @@
 
 .ayvaOverview {
     display:flex;
+    justify-content: center;
     width:50vw;
     padding-bottom: 2vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    text-align: center;
 }
 .ayvaArchitecture {
     display:flex;

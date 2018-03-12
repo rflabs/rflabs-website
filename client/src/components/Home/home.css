@@ -8,7 +8,7 @@
 }
 
 .primaryMessageBox h1 {
-    font-size: 7vw;
+    font-size: 10vw;
     font-family: 'Dosis', sans-serif;
     color: #03236E;
 }   
@@ -24,7 +24,7 @@
 }
 
 .secondMessage span {
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 @media only screen and (max-width: 768px) {
