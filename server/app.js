@@ -30,6 +30,9 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.get('*', function (request, response){
+    response.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+})
 
 server.listen(process.env.PORT || 8080, function() {
 	console.log("Node server started")
