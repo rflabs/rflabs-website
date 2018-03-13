@@ -10,9 +10,9 @@ class MIT extends Component {
                 <div className='mainOne'>
                     <div className='mitLicense'>
                         <span>Copyright 2017-present Refresh Labs LLC</span>
-                        <span>https://refreshlabs.co</span>
+                        <a href='https://www.refreshlabs.co'>https://www.refreshlabs.co</a>
                         <br />
-                        <span>MIT License</span>
+                        <span><b>MIT License</b></span>
                         <br />
                         <span>
                             Permission is hereby granted, free of charge, to any person obtaining 
