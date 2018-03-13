@@ -24,8 +24,9 @@ class StepFive extends Component {
                     <div className='tutorialBox'>
                         <h3>5b. Select 'Google (Dialogflow)' and enter the agent developer access token <a href='#stepThree' className='stepHighlight'>(Step 3d)</a>.</h3>
                         <img className='screenshotImg' src={helloTwo} alt='threeA'/>
-                        <span>This helps <span className='ayvaHighlight'>Ayva</span> understand and authenticate to the desired Dialogflow agent. The developer access 
-                        token you define here can be found in <span className='ayvaHighlight'>ayva.json</span>, always located in the root of your project folder.</span>
+                        <span>This provides <span className='ayvaHighlight'>Ayva</span> with the necessary data to authenticate with the desired Dialogflow agent. The developer access 
+                        token you define here can always be found and modified in <span className='ayvaHighlight'>ayva.json</span>.</span>
+                        <span className='footNote'>(Always located in the root of your voice project folder)</span>
                     </div>
                     <div key={'stepSix'} />
                 </div>

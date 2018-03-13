@@ -17,9 +17,8 @@ class StepSeven extends Component {
                     <div className='tutorialBox'>
                         <h3>7a. Confirm intents have been successfully imported</h3>
                         <img className='screenshotImg' src={checkIntents} alt='checkIntents'/>
-                        <span>In Dialogflow, click on the 'Intents' tab to see all intents defined for your agent. 
-                        <span className='ayvaHighlight'> Hello Ayva</span> creates 5 intents.</span>
-                        <span className='footNote'>(i.e Born, EnableBorn, Name, and Welcome)</span>
+                        <span>In Dialogflow, click on the 'Intents' tab to see all intents defined for your agent. You should see 5 new intents. <span className='footNote'>(i.e Born, EnableBorn, Name, and Welcome)</span></span>
+                        
                     </div>
                     <div className='tutorialBox'>
                         <h3>7b. Confirm Bespoken proxy and voice app services are running</h3>

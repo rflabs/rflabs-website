@@ -1,4 +1,3 @@
-
 import React, {Component} from 'react'
 
 import {Terminal} from '../../components'
@@ -13,8 +12,7 @@ class StepOne extends Component {
                 <div className='stepDescriptionBox'>
                     <div className='tutorialBox'>
                         <Terminal code='npm install -g ayva-cli' />
-                        <span>Use a command line tool to install the <span className='ayvaHighlight'>Ayva command line interface (CLI)</span>. This tool will allow you to create new voice assistant projects 
-                        and deploy interaction models to any supported voice assistant platform.</span>
+                        <span>Use a command line tool to install the <span className='ayvaHighlight'>Ayva command line interface (CLI)</span>. This tool will help you easily deploy voice interaction models to any supported NLU platform. <span className='footNote'>(ie. Google, Alexa, etc.)</span></span>
                     </div>
                     <div className='stepLinks'>
                         <div className='npmBox'>

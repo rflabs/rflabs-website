@@ -19,7 +19,7 @@ class StepFour extends Component {
                         <Terminal code='bst proxy http 8080 --verbose' />
                         <span> This creates a public URL for accessing the local service you will be starting for <span className='ayvaHighlight'>Hello Ayva</span>.</span>
                         <span className='footNote'>(Hello Ayva runs on port 8080 by default)</span>
-                        <img className='cmdLineImg' src={bstProxy} alt='bstProxy'/>
+                        <img className='screenshotImg' src={bstProxy} alt='bstProxy'/>
                     </div>
                     <br />
                     <div className='tutorialBox'>

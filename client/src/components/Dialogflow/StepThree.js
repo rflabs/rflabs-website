@@ -31,14 +31,14 @@ class StepThree extends Component {
                         <h3>3c. Enter 'hello-ayva' for the agent name and click 'Create'</h3>
                         <img className='screenshotImg' src={threeC} alt='threeC'/>
                         <span>Create a new agent called 'hello-ayva'. This will be the agent we will later be 
-                        uploading our voice app's interaction model to.</span>
+                        uploading with <span className='ayvaHighlight'>Hello Ayva's</span> interaction model.</span>
                     </div>
                     <div className='tutorialBox'>
                         <h3>3d. Go to agent configuration to acquire developer access token under 'General'.</h3>
                         <img className='screenshotImg' src={threeD} alt='threeC'/>
                         <img className='screenshotImg' src={threeE} alt='threeE'/>
                         <span>Now that we've successfully created a new agent, we need to grab the <a href='https://dialogflow.com/docs/reference/agent/' className='linkHighlight'>developer access token</a>. 
-                        This token is unique to every agent. This is how <span className='ayvaHighlight'>Ayva</span> knows which <a href='https://console.dialogflow.com/api-client/#/agent/' className='linkHighlight'>Dialogflow agent</a> to upload your 
+                        This token is unique to every agent. This is how <span className='ayvaHighlight'>Ayva</span> will know which <a href='https://console.dialogflow.com/api-client/#/agent/' className='linkHighlight'>Dialogflow agent</a> to upload your 
                         app's interaction model to.</span>
                     </div>
                     <span className='footNote'>(Ayva currently uses <a href='https://dialogflow.com/docs/reference/agent/' className='linkHighlight'>Dialogflow V1 API</a>)</span>
