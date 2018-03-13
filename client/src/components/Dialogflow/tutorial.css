@@ -50,7 +50,6 @@
     color: #2D333F;
 }
 
-
 .stepBox {
     display: flex;
     flex-direction: column;
@@ -63,7 +62,7 @@
 }
 
 .stepHeader {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
 }
@@ -87,6 +86,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 1.5vh 0 0 0;
 }
 
 .npmBox {
@@ -116,26 +116,23 @@
     height: auto;
 }
 
-.tutorialImgBox {
+.tutorialBox {
     display: flex;
     flex-direction: column;
     color: #2D333F;
+    padding: 2vh 0 2vh 0;
 }
 
-.tutorialImgBox h3 {
-    font-size: 100%;
+.tutorialBox h3 {
+    font-size: 1.1vw;
     font-weight: 700;
 }
 
-.threeImg {
+.screenshotImg {
     height: auto;
     max-width: 700px;
     image-rendering: auto;
-}
-
-.cmdLineImg {
-    max-height: 100%;
-    max-width: 700px;
+    padding: 1.5vh 0 1.5vh 0;
 }
 
 .footNote {
@@ -183,7 +180,7 @@
 
 @media only screen and (max-width: 768px) {
 
-    .threeImg {
+    .screenshotImg {
         max-width: 180px;
         height: auto;
         image-rendering: auto;

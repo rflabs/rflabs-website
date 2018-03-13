@@ -13,28 +13,19 @@ class StepTen extends Component {
                 <div className='stepTitleBox'>
                     <span className='stepHeader'><span className='stepTitle'>Step 10. </span>Install Amazon Ask CLI</span>
                 </div>
-                <br />
                 <div className='stepDescriptionBox'>
-                    <Terminal code='npm install -g ask-cli' />
-                    <br />
-                    <div className='tutorialImgBox'>
+                    <div className='tutorialBox'>
                         <h3>10a. Install Amazon Ask CLI NPM package.</h3>
+                        <Terminal code='npm install -g ask-cli' />
                         <span>Use your command line tool to install Amazon's Ask CLI. We will be using this tool to import Hello Ayva's interaction model to your Alexa skill. </span>
-                        <br />
                     </div>
-                    <br />
-                    <Terminal code='ask init' />
-                    <br />
-                    <div className='tutorialImgBox'>
+                    <div className='tutorialBox'>
                         <h3>10b. Link Amazon developer account with Amazon Ask CLI.</h3>
+                        <Terminal code='ask init' />
                         <span>Initialize the CLI with your Amazon developer account credentials by first calling <span className='code'>ask init</span> in your command line tool.</span>
-                        <br />
-                        <img className='cmdLineImg' src={askCLIOne} alt='askCLIOne' />
-                        <br />
-                        <img className='cmdLineImg' src={askCLITwo} alt='askCLITwo' />
-                        <br />
-                        <img className='threeImg' src={askCLIThree} alt='askCLIThree' />
-                        <br />
+                        <img className='screenshotImg' src={askCLIOne} alt='askCLIOne' />
+                        <img className='screenshotImg' src={askCLITwo} alt='askCLITwo' />
+                        <img className='screenshotImg' src={askCLIThree} alt='askCLIThree' />
                         <span> If all is successful, you should receive a vender ID and a message that says your profile was initialized successfully in your command line tool.</span> 
                     </div>
                     <div key={'stepEleven'} />
